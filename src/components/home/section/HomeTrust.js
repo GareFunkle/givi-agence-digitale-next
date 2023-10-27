@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 const HomeTrust = () => {
-  const [items, setItems] = useState([
+  const itemsTrust = [
     {
       id: 1,
       img: "/assets/Logo/LogoClient/logo_univers_terrasses_bois.png",
@@ -34,7 +34,7 @@ const HomeTrust = () => {
       id: 6,
       img: "/assets/Logo/LogoClient/logo_excellium_nutrition.png",
     },
-  ]);
+  ];
   return (
     <Swiper
       modules={[Autoplay]}
@@ -43,7 +43,7 @@ const HomeTrust = () => {
       spaceBetween={0}
       slidesPerView={3}
     >
-      {items.map((item) => (
+      {itemsTrust.map((item) => (
         <SwiperSlide key={item.id}>
           <img src={item.img} alt="" />
         </SwiperSlide>

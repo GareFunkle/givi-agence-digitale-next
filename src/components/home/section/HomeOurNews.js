@@ -1,10 +1,8 @@
-"use client";
-
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 
 const HomeOurNews = () => {
-  const [items, setItems] = useState([
+  const itemsNews = [
     {
       id: 1,
       img: "/assets/Home/OurNews/news-one.jpg",
@@ -26,12 +24,12 @@ const HomeOurNews = () => {
       secondTitle: "Nice to meet you!",
       text: "Women's rights lawyer, founder of Girls for Arts International, cook, and proud mother of 2",
     },
-  ]);
+  ];
   return (
     <section className="mt-[4rem] flex items-center justify-center flex-col">
       <h2 className="text-[5rem] font-bold">Nos dernières actualités</h2>
-      <div className="mt-[2rem] flex flex-row items-center justify-between w-[50%] ">
-        {items.map((item) => (
+      <div className="mt-[2rem] flex flex-row items-center justify-between w-[70%] ">
+        {itemsNews.map((item) => (
           <div key={item.id} className="max-w-[19rem]  bg-white ">
             <Link href="/nos-actualites">
               <img src={item.img} alt="" />

@@ -1,11 +1,9 @@
-"use client";
-
+import React from "react";
 import { faDiamond } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
 
 const HomeStrongPoint = () => {
-  const [items, setItems] = useState([
+  const itemsStrongPoint = [
     {
       id: 1,
       number: "1",
@@ -30,12 +28,12 @@ const HomeStrongPoint = () => {
       title: "Analyse et optimisation",
       text: "Nous prenons le temps de vraiment comprendre vos besoins et aspirations",
     },
-  ]);
+  ];
 
   return (
     <section className="flex justify-between items-center px-[2rem] py-[2rem] bg-black text-white h-[30vh]">
       <div className="flex items-center flex-row max-w-full">
-        {items.map((item) => (
+        {itemsStrongPoint.map((item) => (
           <div
             className="flex items-center justify-center w-full"
             key={item.id}

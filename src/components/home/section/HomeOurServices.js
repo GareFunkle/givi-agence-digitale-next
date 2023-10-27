@@ -1,12 +1,10 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faYinYang as faYinYang } from "@fortawesome/free-solid-svg-icons";
 
 const HomeOurServices = () => {
-  const [items, setItems] = useState([
+  const itemsService = [
     {
       id: 1,
       title: "Stratégie digitale",
@@ -37,12 +35,12 @@ const HomeOurServices = () => {
       title: "Référencement naturel (SEO)",
       text: "Augmentez la visibilité de votre site avec une stratégie SEO efficace. Définissons ensemble les mots-clés cibles, et laissez-nous optimiser votre contenu pour les moteurs de recherche.",
     },
-  ]);
+  ];
 
   return (
     <section className="mt-[2rem] h-auto max-w-[100%]">
       <div className="grid grid-cols-3 gap-3 p-[4rem]">
-        {items.map((item) => (
+        {itemsService.map((item) => (
           <div key={item.id} className="p-[20px] text-[2rem]">
             <div>
               <h3 className="text-[1.5rem] mb-[1rem] font-bold">

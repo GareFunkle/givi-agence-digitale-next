@@ -1,11 +1,7 @@
-"use client";
-
-import React, { useState } from "react";
-
-// import "./FAQ.scss";
+import React from "react";
 
 const HomeFaq = () => {
-  const [items, setItems] = useState([
+  const itemsFaq = [
     {
       id: 1,
       title: "C'est quoi une agence de communication digitale ?",
@@ -16,7 +12,7 @@ const HomeFaq = () => {
       title: "Notre méthodologie de travail",
       text: "Chez GIVI, nous adoptons une approche collaborative. Tout commence par une phase d'écoute et de découverte où nous cherchons à comprendre vos besoins et objectifs. Ensuite, nous élaborons une stratégie sur mesure, suivie de sa mise en œuvre. À chaque étape, nous nous assurons d'obtenir vos retours et d'ajuster notre approche en conséquence. Nous croyons fermement en une communication transparente et régulière pour garantir le succès de chaque projet.",
     },
-  ]);
+  ];
   return (
     <section className="mt-[2rem] max-w-full">
       <div className="flex items-center flex-col  w-full">
@@ -25,7 +21,7 @@ const HomeFaq = () => {
             Vos questions les plus fréquentes
           </h2>
         </div>
-        {items.map((item) => (
+        {itemsFaq.map((item) => (
           <div className="flex items-start justify-center  " key={item.id}>
             <div className="flex items-start justify-center flex-col mb-[1rem] mt-[1rem] w-[44%]">
               <h3 className="text-[1.8rem] font-bold">{item.title}</h3>
