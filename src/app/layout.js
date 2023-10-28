@@ -1,7 +1,7 @@
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
   title: "GIVI Agence Digitale",

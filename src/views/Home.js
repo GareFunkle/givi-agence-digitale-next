@@ -1,24 +1,28 @@
 import React from "react";
-import HomeBanner from "@/components/home/section/HomeBanner";
-import HomeOurServices from "@/components/home/section/HomeOurServices";
-import HomeOurVision from "@/components/home/section/HomeOurVision";
-import HomeStrongPoint from "@/components/home/section/HomeStrongPoint";
-import HomeTrust from "@/components/home/section/HomeTrust";
-import HomeOurNews from "@/components/home/section/HomeOurNews";
-import HomeYourIdeas from "@/components/home/section/HomeYourIdea";
-import HomeFaq from "@/components/home/section/HomeFaq";
+import HomeSectionBanner from "@/components/HomeSection/HomeSectionBanner";
+import HomeSectionOurServices from "@/components/HomeSection/HomeSectionOurServices";
+import HomeSectionOurVision from "@/components/HomeSection/HomeSectionOurVision";
+import HomeSectionStrongPoint from "@/components/HomeSection/HomeSectionStrongPoint";
+import HomeSectionTrust from "@/components/HomeSection/HomeSectionTrust";
+import HomeSectionOurNews from "@/components/HomeSection/HomeSectionOurNews";
+import HomeSectionYourIdeas from "@/components/HomeSection/HomeSectionYourIdea";
+import HomeSectionFaq from "@/components/HomeSection/HomeSectionFaq";
+import HomeSectionPortofolio from "@/components/HomeSection/HomeSectionPortofolio";
+import WhiteSpace from "@/components/ui/whiteSpace/WhiteSpace";
 
 const Home = () => {
   return (
     <div>
-      <HomeBanner />
-      <HomeOurServices />
-      <HomeStrongPoint />
-      <HomeTrust />
-      <HomeOurVision />
-      <HomeOurNews />
-      <HomeFaq />
-      {/* <HomeYourIdeas /> */}
+      <HomeSectionBanner />
+      <HomeSectionOurServices />
+      <HomeSectionStrongPoint />
+      <WhiteSpace />
+      <HomeSectionPortofolio />
+      <HomeSectionTrust />
+      <HomeSectionOurVision />
+      <HomeSectionOurNews />
+      <HomeSectionFaq />
+      <HomeSectionYourIdeas />
     </div>
   );
 };

@@ -1,12 +1,8 @@
 import React from "react";
-import OurVision from "@/views/OurVision";
+import OurVision from "@/views/ourvision";
 
 const PageOurVision = () => {
-  return (
-    <div>
-      <OurVision />
-    </div>
-  );
+  return <OurVision />;
 };
 
 export default PageOurVision;

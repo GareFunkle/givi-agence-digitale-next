@@ -1,18 +1,18 @@
-import OurVisionAgency from "@/components/ourvision/section/OurVisionAgency";
-import OurVisionQuote from "@/components/ourvision/section/OurVisionQuote";
-import OurVisionStory from "@/components/ourvision/section/OurVisionStory";
-import OurVisionTalkAbout from "@/components/ourvision/section/OurVisionTalkAbout";
-import OurVisionUs from "@/components/ourvision/section/OurVisionUs";
+import OurVisionSectionAgency from "@/components/OurVisionSection/OurVisionSectionAgency";
+import OurVisionSectionQuote from "@/components/OurVisionSection/OurVisionSectionQuote";
+import OurVisionSectionStory from "@/components/OurVisionSection/OurVisionSectionStory";
+import OurVisionSectionTalkAbout from "@/components/OurVisionSection/OurVisionSectionTalkAbout";
+import OurVisionSectionUs from "@/components/OurVisionSection/OurVisionSectionUs";
 import React from "react";
 
 const OurVision = () => {
   return (
     <div>
-      <OurVisionStory />
-      <OurVisionUs />
-      <OurVisionQuote />
-      <OurVisionAgency />
-      <OurVisionTalkAbout />
+      <OurVisionSectionStory />
+      <OurVisionSectionUs />
+      <OurVisionSectionQuote />
+      <OurVisionSectionAgency />
+      <OurVisionSectionTalkAbout />
     </div>
   );
 };

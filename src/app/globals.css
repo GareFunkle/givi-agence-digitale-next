@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
- scroll-behavior: smooth;
- position: relative;
- top: 12rem;
+  scroll-behavior: smooth;
+  position: relative;
+  top: 12rem;
 }

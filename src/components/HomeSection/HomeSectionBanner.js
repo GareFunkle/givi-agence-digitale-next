@@ -1,5 +1,5 @@
 import React from "react";
-import LinkButton from "../../UI/LinkButton";
+import LinkButton from "../ui/LinkButton";
 
 const HomeBanner = () => {
   return (

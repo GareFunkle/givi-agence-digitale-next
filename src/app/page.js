@@ -1,11 +1,7 @@
-import Home from "@/views/Home";
+import Home from "@/views/home";
 
 const PageHome = () => {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  return <Home />;
 };
 
 export default PageHome;

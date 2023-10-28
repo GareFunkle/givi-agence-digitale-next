@@ -1,5 +1,5 @@
 import React from "react";
-import LinkButton from "../../UI/LinkButton";
+import LinkButton from "../ui/LinkButton";
 const OurVisionTalkAbout = () => {
   return (
     <section className="max-w-full h-[40vh] bg-black flex items-center justify-center flex-col">

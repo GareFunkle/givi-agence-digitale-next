@@ -15,8 +15,7 @@ const OurVisionAgency = () => {
           Notre objectif principal est de vous aider à naviguer avec confiance
           dans ce monde numérique, de transformer vos ambitions en réalités
           tangibles et d'assurer que votre voix soit entendue dans cette vaste
-          mer d'innovations. Ensemble, explorons les opportunités du monde 2.0
-          et construisons votre succès.
+          mer d'innovations.
         </p>
         <p className="text-[1.5rem] mb-[1.2rem] font-[500]">
           Tout n’est pas blanc ou noir
