@@ -1,18 +1,19 @@
-import React from "react";
-import LinkButton from "../ui/LinkButton";
+import Link from 'next/link';
+import React from 'react';
 const OurVisionTalkAbout = () => {
   return (
-    <section className="max-w-full h-[40vh] bg-black flex items-center justify-center flex-col">
-      <div className="text-white">
-        <h2 className="text-[4rem] font-bold mb-4">
+    <section className='flex h-[40vh] max-w-full flex-col items-center justify-center bg-black'>
+      <div className='text-white'>
+        <h2 className='mb-4 text-[4rem] font-bold'>
           Discutons de votre projet !
         </h2>
-        <div className="flex justify-start">
-          <LinkButton
-            className="bg-white text-[1.3rem] px-[0.6rem] py-[0.3rem] rounded-[calc(5rem/6.2)] text-black font-bold"
-            href="/contact"
-            text="Nous contacter"
-          />
+        <div className='flex justify-start'>
+          <Link
+            className='rounded-[calc(5rem/6.2)] bg-white px-[0.6rem] py-[0.3rem] text-[1.3rem] font-bold text-black'
+            href='/contact'
+          >
+            Nous contacter
+          </Link>
         </div>
       </div>
     </section>

@@ -1,10 +1,9 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import Logo from "../../../assets/Logo/logo_big_givi.png";
-import LogoSmall from "../../../assets/Logo/logo_small_givi.png";
-import Link from "next/link";
+import Link from 'next/link';
+import Image from 'next/image';
 
 const HeaderLogo = () => {
   const [changeLogo, setChangeLogo] = useState(false);
@@ -18,26 +17,30 @@ const HeaderLogo = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
   return (
-    <Link href="/">
-      <img
+    <Link href='/'>
+      <Image
+        width={200}
+        height={150}
         className={`${
-          changeLogo ? "hidden" : "block"
-        } h-50 mr-3  transition-opacity duration-300`}
-        src="../../assets/Logo/logo_big_givi.png"
-        alt="logo givi"
+          changeLogo ? 'hidden' : 'block'
+        } h-50  mr-3  transition-opacity duration-300`}
+        src='/assets/Logo/logo_big_givi.png'
+        alt='logo givi'
       />
-      <img
+      <Image
+        width={200}
+        height={150}
         className={`${
-          changeLogo ? "block opacity" : "hidden"
-        } h-50 mr-3  transition-opacity duration-300`}
-        src="../../assets/Logo/logo_small_givi.png"
-        alt="logo givi small"
+          changeLogo ? 'opacity block' : 'hidden'
+        } h-50 mr-3   transition-opacity duration-300`}
+        src='/assets/Logo/logo_small_givi.png'
+        alt='logo givi small'
       />
     </Link>
   );
