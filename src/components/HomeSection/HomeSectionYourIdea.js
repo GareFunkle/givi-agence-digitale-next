@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeYourIdeas = () => {
   return (
-    <section className='flex h-[100vh] max-w-full flex-col items-center justify-center bg-black'>
+    <section className='flex h-[100vh] max-w-full flex-col items-center justify-center bg-dark-light'>
       <h2 className='mb-11 text-6xl font-bold text-white'>
         Discutons de vos idées
       </h2>
@@ -34,7 +34,7 @@ const HomeYourIdeas = () => {
             placeholder='Détaillez-nous votre projet..'
           />
           <button
-            className='my-8 rounded-[calc(5rem/8)] bg-black px-2.5 py-1 text-2xl font-bold text-white '
+            className='my-8 rounded-[calc(5rem/8)] bg-dark-light px-2.5 py-1 text-2xl font-bold text-white '
             type='submit'
           >
             Envoyer

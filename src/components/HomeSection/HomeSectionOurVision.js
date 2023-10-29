@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const HomeOurVision = () => {
   return (
-    <section className='flex h-[100vh] max-w-full justify-center bg-black text-white'>
+    <section className='flex h-[100vh] max-w-full justify-center bg-dark-light text-white'>
       <div className='flex w-[35%] flex-col justify-center pr-[2rem]'>
         <h2 className='mb-[2rem] text-[4rem]'>Notre vision</h2>
         <p className='text-[1.5rem]'>

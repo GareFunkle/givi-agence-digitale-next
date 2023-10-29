@@ -17,7 +17,7 @@ const HomeFaq = () => {
     <section className='mt-[2rem] max-w-full'>
       <div className='flex w-full flex-col  items-center'>
         <div className='mb-[1.5rem]'>
-          <h2 className='rounded-[calc(5rem/4)] bg-black  pb-[0.5rem] pl-[1rem] pr-[1rem] pt-[0.5rem] text-[4rem] font-bold text-white'>
+          <h2 className='rounded-[calc(5rem/4)] bg-dark-light  pb-[0.5rem] pl-[1rem] pr-[1rem] pt-[0.5rem] text-[4rem] font-bold text-white'>
             Vos questions les plus fréquentes
           </h2>
         </div>
@@ -25,10 +25,7 @@ const HomeFaq = () => {
           <div className='flex items-start justify-center  ' key={item.id}>
             <div className='mb-[1rem] mt-[1rem] flex w-[44%] flex-col items-start justify-center'>
               <h3 className='text-[1.8rem] font-bold'>{item.title}</h3>
-              <hr
-                className='mb-[1rem]   mt-[1rem] w-[60%] border-2 border-black'
-                color='#000'
-              />
+              <hr className='mb-[1rem]   mt-[1rem] w-[60%] border-2 border-black' />
               <p className='text-[1.1rem] font-[500]'>{item.text}</p>
             </div>
           </div>

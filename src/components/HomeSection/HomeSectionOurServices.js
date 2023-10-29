@@ -1,7 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import { faYinYang as faYinYang } from '@fortawesome/free-solid-svg-icons';
 
 const itemsService = [
   {
@@ -42,11 +39,7 @@ const HomeOurServices = () => {
         {itemsService.map((item) => (
           <div key={item.id} className='p-[20px] text-[2rem]'>
             <div>
-              <h3 className='mb-[1rem] text-[1.5rem] font-bold'>
-                <FontAwesomeIcon
-                  icon={faYinYang}
-                  className='mr-[0.5rem] text-black'
-                />
+              <h3 className=' mb-[1rem] text-[1.5rem] font-bold text-pink'>
                 {item.title}
               </h3>
               <p className='text-[1.3rem] font-[500]'>{item.text}</p>

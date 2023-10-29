@@ -30,7 +30,7 @@ const ContactSectionForm = () => {
           placeholder='Détaillez-nous votre projet..'
         />
         <div className='mt-8 flex items-center justify-center'>
-          <button className='rounded-[calc(5rem/8)] bg-black px-3 py-2 text-xl text-white'>
+          <button className='rounded-[calc(5rem/8)] bg-dark-light px-3 py-2 text-xl text-white'>
             Envoyer
           </button>
         </div>

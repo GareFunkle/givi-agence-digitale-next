@@ -23,7 +23,7 @@ const Footer = () => {
           type='mail'
           placeholder='email*'
         />
-        <button className='rounded-[0.2rem] border-none bg-black py-[0.1rem] pl-[1rem] pr-[2rem] text-[1.3rem] text-white'>
+        <button className='rounded-[0.2rem] border-none bg-dark-light py-[0.1rem] pl-[1rem] pr-[2rem] text-[1.3rem] text-white'>
           s&#39;inscrire
         </button>
       </div>

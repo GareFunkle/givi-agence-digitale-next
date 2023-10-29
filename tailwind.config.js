@@ -8,24 +8,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        pink: '#ff00a8',
+        'dark-light': '#1c1c1f',
+      },
+      backgroundColor: {
+        test: 'url(#goo)', // exemple d'utilisation d'un filtre SVG nommé "blur"
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'hero-pattern': "url('/assets/Home/Banner/banner_givi.jpg')",
+        'hero-background': "url('/assets/Home/Banner/banner_givi.jpg')",
       },
       animation: {
-        marquee: 'marquee 25s linear infinite',
-        marquee2: 'marquee2 25s linear infinite',
+        'infinite-scroll': 'infinite-scroll 20s linear infinite',
       },
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-100%)' },
-        },
-        marquee2: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(0%)' },
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
         },
       },
     },

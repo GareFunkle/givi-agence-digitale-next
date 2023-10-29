@@ -16,7 +16,7 @@ const HeaderItems = () => {
       >
         <span className='sr-only'>Open main menu</span>
         <svg
-          className='h-5 w-5 text-[#27C7D4]'
+          className='h-5 w-5 text-[#FE277E]'
           aria-hidden='true'
           xmlns='http://www.w3.org/2000/svg'
           fill='none'
@@ -35,10 +35,10 @@ const HeaderItems = () => {
         className={`${menuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}
         id='navbar-default'
       >
-        <ul className='mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-[1.2rem] font-medium dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white  md:p-0 md:dark:text-black'>
+        <ul className='mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-[1.2rem] font-medium dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white  md:p-0'>
           <li>
             <Link
-              className='block border-[#27C7D4] py-2 pl-3 pr-4  text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:border-b-[1px] md:hover:bg-transparent md:dark:hover:bg-transparent md:dark:hover:text-[#27C7D4]'
+              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
               href='/nos-projets'
             >
               Nos projets
@@ -46,7 +46,7 @@ const HeaderItems = () => {
           </li>
           <li>
             <Link
-              className='block border-[#27C7D4] py-2 pl-3 pr-4  text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:border-b-[1px] md:hover:bg-transparent md:dark:hover:bg-transparent md:dark:hover:text-blue-500'
+              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
               href='/notre-vision'
             >
               Notre vision
@@ -54,7 +54,7 @@ const HeaderItems = () => {
           </li>
           <li>
             <Link
-              className='block border-[#27C7D4] py-2 pl-3 pr-4  text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:border-b-[1px] md:hover:bg-transparent md:dark:hover:bg-transparent md:dark:hover:text-blue-500'
+              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
               href='/nos-actualites'
             >
               Nos actualités
@@ -62,7 +62,7 @@ const HeaderItems = () => {
           </li>
           <li>
             <Link
-              className='block border-[#27C7D4] py-2 pl-3 pr-4  text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:border-b-[1px] md:hover:bg-transparent md:dark:hover:bg-transparent md:dark:hover:text-blue-500'
+              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
               href='/contact'
             >
               Contact

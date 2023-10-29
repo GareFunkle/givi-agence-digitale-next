@@ -41,7 +41,7 @@ const HomeOurNews = () => {
                 alt=''
               />
             </Link>
-            <div className='rounded-b-[1rem] bg-black p-5'>
+            <div className='rounded-b-[1rem] bg-dark-light p-5'>
               <Link href='/nos-actualites'>
                 <h5 className='mb-2 text-2xl font-bold tracking-tight text-white'>
                   {item.title} <br /> {item.secondTitle}

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 const OurVisionTalkAbout = () => {
   return (
-    <section className='flex h-[40vh] max-w-full flex-col items-center justify-center bg-black'>
+    <section className='flex h-[40vh] max-w-full flex-col items-center justify-center bg-dark-light'>
       <div className='text-white'>
         <h2 className='mb-4 text-[4rem] font-bold'>
           Discutons de votre projet !

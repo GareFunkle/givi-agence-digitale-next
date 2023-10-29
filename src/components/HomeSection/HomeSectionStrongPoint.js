@@ -30,7 +30,7 @@ const itemsStrongPoint = [
 ];
 const HomeStrongPoint = () => {
   return (
-    <section className='flex h-[30vh] items-center justify-between bg-black px-[2rem] py-[2rem] text-white'>
+    <section className='bg-dark-light flex h-[30vh] items-center justify-between px-[2rem] py-[2rem] text-white'>
       <div className='flex max-w-full flex-row items-center'>
         {itemsStrongPoint.map((item) => (
           <div
@@ -42,7 +42,7 @@ const HomeStrongPoint = () => {
               <FontAwesomeIcon className='text-[0.8rem]' icon={faDiamond} />
             </p>
             <div className='mr-[2rem] flex w-full flex-col p-[1rem]'>
-              <h3 className='mb-[0.5rem]'>{item.title}</h3>
+              <h3 className='text-pink mb-2 text-xl font-bold'>{item.title}</h3>
               <p>{item.text}</p>
             </div>
           </div>
