@@ -29,7 +29,7 @@ const HeaderLogo = () => {
         height={150}
         className={`${
           changeLogo ? 'hidden' : 'block'
-        } h-50  mr-3  transition-opacity duration-300`}
+        } h-50 mr-3  w-auto  transition-opacity duration-300`}
         src='/assets/Logo/logo_big_givi.png'
         alt='logo givi'
       />
@@ -38,7 +38,7 @@ const HeaderLogo = () => {
         height={150}
         className={`${
           changeLogo ? 'opacity block' : 'hidden'
-        } h-50 mr-3   transition-opacity duration-300`}
+        } h-50 mr-3 w-auto   transition-opacity duration-300`}
         src='/assets/Logo/logo_small_givi.png'
         alt='logo givi small'
       />

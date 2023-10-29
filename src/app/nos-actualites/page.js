@@ -1,7 +1,8 @@
+import OurNews from '@/views/OurNews';
 import React from 'react';
 
 const PageOurNews = () => {
-  return <div>OurNews</div>;
+  return <OurNews />;
 };
 
 export default PageOurNews;

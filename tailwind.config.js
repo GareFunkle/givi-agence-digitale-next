@@ -14,6 +14,20 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'hero-pattern': "url('/assets/Home/Banner/banner_givi.jpg')",
       },
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+      },
     },
   },
   plugins: [require('flowbite/plugin')],

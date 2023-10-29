@@ -7,6 +7,7 @@ const OurVisionUs = () => {
       <Image
         width={800}
         height={500}
+        className='h-auto w-auto'
         src='/assets/Vision/Us/4.png'
         alt='nous couple best'
       />

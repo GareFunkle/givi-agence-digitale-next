@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Contact from '@/views/contact';
+
 const PageContact = () => {
-  return <div>PageContact</div>;
+  return <Contact />;
 };
 
 export default PageContact;
