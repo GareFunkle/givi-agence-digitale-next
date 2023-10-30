@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className='relative bottom-0 mt-[10rem] flex max-w-full flex-col items-center justify-center  '>
+    <footer className='relative bottom-0 mb-8 mt-16 flex max-w-full flex-col items-center justify-center  '>
       <h2 className='text-[2.5rem] font-bold'>Restons en contact</h2>
       <div className='mb-[1.5rem] flex  w-[35%] items-start justify-start'>
         <p className='px-[6rem] text-[1.1rem] text-black'>
@@ -17,13 +17,13 @@ const Footer = () => {
           toutes nos actualités !
         </p>
       </div>
-      <div className='mb-[2rem] flex w-[25%] '>
+      <div className='mb-[2rem] flex w-1/4 '>
         <input
-          className='w-[100%] rounded-s-lg border-[2px] border-r-0 border-black text-[1.2rem] placeholder:text-black focus:outline-none'
+          className='w-[100%] rounded-s-lg border border-r-0 border-black text-[1.2rem] placeholder:text-black focus:outline-none'
           type='mail'
           placeholder='email*'
         />
-        <button className='rounded-[0.2rem] border-none bg-dark-light py-[0.1rem] pl-[1rem] pr-[2rem] text-[1.3rem] text-white'>
+        <button className='rounded-[0.2rem] border-none bg-dark-light py-[0.1rem] pl-[1rem] pr-[2rem] text-[1.3rem] text-white transition duration-500 hover:bg-pink'>
           s&#39;inscrire
         </button>
       </div>

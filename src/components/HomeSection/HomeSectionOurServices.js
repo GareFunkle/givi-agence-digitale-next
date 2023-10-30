@@ -1,3 +1,6 @@
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
 import React from 'react';
 
 const itemsService = [
@@ -34,18 +37,35 @@ const itemsService = [
 ];
 const HomeOurServices = () => {
   return (
-    <section className='mt-[2rem] h-auto max-w-[100%]'>
+    <section className='my-12 h-auto max-w-[100%]'>
+      <div className='flex items-center justify-center'>
+        <h1 className='text-7xl font-bold'>Nos Services</h1>
+      </div>
       <div className='grid grid-cols-3 gap-3 p-[4rem]'>
         {itemsService.map((item) => (
           <div key={item.id} className='p-[20px] text-[2rem]'>
             <div>
-              <h3 className=' mb-[1rem] text-[1.5rem] font-bold text-pink'>
-                {item.title}
-              </h3>
+              <div className=' mb-4  flex items-center '>
+                <FontAwesomeIcon
+                  className=' pr-4 text-[0.5rem] text-pink'
+                  icon={faCircle}
+                />
+                <h3 className='text-[1.5rem]  font-bold text-pink'>
+                  {item.title}
+                </h3>
+              </div>
               <p className='text-[1.3rem] font-[500]'>{item.text}</p>
             </div>
           </div>
         ))}
+      </div>
+      <div className='flex items-center justify-center'>
+        <Link
+          href='#'
+          className='rounded-[calc(4rem/4)] bg-dark-light px-4 py-2 text-4xl text-white transition duration-500 hover:bg-pink'
+        >
+          en savoir plus
+        </Link>
       </div>
     </section>
   );

@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const HomeBanner = () => {
   return (
-    <section className='m-w-[100%] bg-hero-background h-[100vh] bg-cover bg-center bg-no-repeat'>
-      <div className='relative left-[10%] top-[15%] w-[77%]'>
+    <section className='m-w-[100%] h-[70vh] bg-hero-background bg-cover bg-top bg-no-repeat'>
+      <div className='relative left-[10%] top-[35%] w-[77%]'>
         <div>
           <h1 className=' text-[2.5rem] font-[700]  '>
             <span
@@ -47,7 +47,7 @@ const HomeBanner = () => {
         <div className='m-w-[100%] mt-[2rem]'>
           <Link
             href='/contact'
-            className='bg-dark-light hover:bg-pink w-[100%] rounded-[calc(5rem/6.2)] px-[0.9rem] py-[0.4rem] text-[2rem] font-bold text-white transition delay-75 ease-out'
+            className='w-[100%] rounded-[calc(5rem/6.2)] bg-dark-light px-4 py-2 text-4xl font-bold text-white transition duration-500 ease-out hover:bg-pink'
           >
             Nous contacter
           </Link>

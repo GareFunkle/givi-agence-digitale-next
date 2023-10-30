@@ -38,7 +38,24 @@ const HeaderItems = () => {
         <ul className='mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-[1.2rem] font-medium dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white  md:p-0'>
           <li>
             <Link
-              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
+              className='relative 
+                        inline-block
+                        transition-all
+                        ease-in-out
+                        before:absolute 
+                        before:-bottom-2
+                        before:left-0
+                        before:h-1
+                        before:w-0
+                        before:rounded-full
+                        before:bg-pink 
+                        before:opacity-0
+                        before:transition-all
+                        before:duration-500
+                        before:content-[""]
+                        hover:transition-all
+                        hover:before:w-full
+                        hover:before:opacity-100'
               href='/nos-projets'
             >
               Nos projets
@@ -46,7 +63,24 @@ const HeaderItems = () => {
           </li>
           <li>
             <Link
-              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
+              className='relative 
+                            inline-block
+                            transition-all
+                            ease-in-out
+                            before:absolute 
+                            before:-bottom-2
+                            before:left-0
+                            before:h-1
+                            before:w-0
+                            before:rounded-full
+                            before:bg-pink 
+                            before:opacity-0
+                            before:transition-all
+                            before:duration-500
+                            before:content-[""]
+                            hover:transition-all
+                            hover:before:w-full
+                            hover:before:opacity-100'
               href='/notre-vision'
             >
               Notre vision
@@ -54,7 +88,24 @@ const HeaderItems = () => {
           </li>
           <li>
             <Link
-              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
+              className='relative 
+                        inline-block
+                        transition-all
+                        ease-in-out
+                        before:absolute 
+                        before:-bottom-2
+                        before:left-0
+                        before:h-1
+                        before:w-0
+                        before:rounded-full
+                        before:bg-pink 
+                        before:opacity-0
+                        before:transition-all
+                        before:duration-500
+                        before:content-[""]
+                        hover:transition-all
+                        hover:before:w-full
+                        hover:before:opacity-100'
               href='/nos-actualites'
             >
               Nos actualités
@@ -62,7 +113,24 @@ const HeaderItems = () => {
           </li>
           <li>
             <Link
-              className='block  border-[#FE277E]  transition   delay-150 ease-in-out hover:border-b hover:transition-all  md:hover:border-pink'
+              className='relative 
+                        inline-block
+                        transition-all
+                        ease-in-out
+                        before:absolute 
+                        before:-bottom-2
+                        before:left-0
+                        before:h-1
+                        before:w-0
+                        before:rounded-full
+                        before:bg-pink 
+                        before:opacity-0
+                        before:transition-all
+                        before:duration-500
+                        before:content-[""]
+                        hover:transition-all
+                        hover:before:w-full
+                        hover:before:opacity-100'
               href='/contact'
             >
               Contact

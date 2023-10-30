@@ -4,7 +4,7 @@ const HomeYourIdeas = () => {
   return (
     <section className='flex h-[100vh] max-w-full flex-col items-center justify-center bg-dark-light'>
       <h2 className='mb-11 text-6xl font-bold text-white'>
-        Discutons de vos idées
+        Discutons de vos <span className='text-pink'>idées</span> !
       </h2>
       <div className='w-1/3 rounded-3xl bg-white'>
         <form className='flex flex-col items-center justify-center px-16 py-8'>
@@ -34,7 +34,7 @@ const HomeYourIdeas = () => {
             placeholder='Détaillez-nous votre projet..'
           />
           <button
-            className='my-8 rounded-[calc(5rem/8)] bg-dark-light px-2.5 py-1 text-2xl font-bold text-white '
+            className='my-8 rounded-[calc(5rem/8)] bg-dark-light px-2.5 py-1 text-2xl font-bold text-white transition duration-500 hover:bg-pink '
             type='submit'
           >
             Envoyer

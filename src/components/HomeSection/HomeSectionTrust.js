@@ -23,7 +23,7 @@ const HomeTrust = () => {
   return (
     <section className='h-auto max-w-full '>
       <div className='flex items-center justify-center'>
-        <h1 className='pt-12 text-5xl font-bold'>Ils nous font confiance</h1>
+        <h1 className='pt-12 text-6xl font-bold'>Références</h1>
       </div>
 
       <div className='inline-flex w-full flex-nowrap overflow-hidden'>
@@ -32,8 +32,8 @@ const HomeTrust = () => {
             <li key={index}>
               <Image
                 className='h-auto w-auto'
-                width={300}
-                height={300}
+                width={350}
+                height={350}
                 src={image.url}
                 alt=''
               />
@@ -45,8 +45,8 @@ const HomeTrust = () => {
             <li key={index}>
               <Image
                 className='h-auto w-auto'
-                width={300}
-                height={300}
+                width={350}
+                height={350}
                 src={image.url}
                 alt=''
               />
