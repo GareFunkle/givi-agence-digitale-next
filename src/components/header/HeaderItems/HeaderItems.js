@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
+import React, { useState } from "react";
+import Link from "next/link";
 const HeaderItems = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -32,7 +32,7 @@ const HeaderItems = () => {
         </svg>
       </button>
       <div
-        className={`${menuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}
+        className={`${menuOpen ? "block" : "hidden"} w-full md:block md:w-auto`}
         id='navbar-default'
       >
         <ul className='mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-[1.2rem] font-medium dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white  md:p-0'>
@@ -45,7 +45,7 @@ const HeaderItems = () => {
                         before:absolute 
                         before:-bottom-2
                         before:left-0
-                        before:h-1
+                        before:h-px
                         before:w-0
                         before:rounded-full
                         before:bg-pink 
@@ -70,7 +70,7 @@ const HeaderItems = () => {
                             before:absolute 
                             before:-bottom-2
                             before:left-0
-                            before:h-1
+                            before:h-px
                             before:w-0
                             before:rounded-full
                             before:bg-pink 
@@ -95,7 +95,7 @@ const HeaderItems = () => {
                         before:absolute 
                         before:-bottom-2
                         before:left-0
-                        before:h-1
+                        before:h-px
                         before:w-0
                         before:rounded-full
                         before:bg-pink 
@@ -120,7 +120,7 @@ const HeaderItems = () => {
                         before:absolute 
                         before:-bottom-2
                         before:left-0
-                        before:h-1
+                        before:h-px
                         before:w-0
                         before:rounded-full
                         before:bg-pink 

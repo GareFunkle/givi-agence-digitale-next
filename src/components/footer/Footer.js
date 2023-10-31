@@ -1,11 +1,11 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
   faSquareFacebook,
   faLinkedin,
   faSquareInstagram,
-} from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -47,7 +47,7 @@ const Footer = () => {
           © 2023 Agence GIVI communication with .
         </p>
         <p className='text-[1.2rem border-r-[1px] border-black pl-[0.3rem] pr-[0.3rem] font-[400]'>
-          Tous droits réservés{' '}
+          Tous droits réservés{" "}
         </p>
         <p className='text-[1.2rem border-r-[1px] border-black pl-[0.3rem] pr-[0.3rem] font-[400]'>
           Mentions Légales

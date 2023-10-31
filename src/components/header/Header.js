@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import HeaderLogo from './HeaderLogo/HeaderLogo';
-import HeaderItems from './HeaderItems/HeaderItems';
+import HeaderLogo from "./HeaderLogo/HeaderLogo";
+import HeaderItems from "./HeaderItems/HeaderItems";
 
 const Header = () => {
   return (

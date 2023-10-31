@@ -1,48 +1,48 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const itemsNews = [
   {
     id: 1,
-    img: '/assets/Home/OurNews/news-one.jpg',
+    img: "/assets/Home/OurNews/news-one.jpg",
     title: "I'm SamiraHadid.",
-    secondTitle: 'Nice to meet you!',
+    secondTitle: "Nice to meet you!",
     text: "Women's rights lawyer, founder of Girls for Arts International, cook, and proud mother of 2",
   },
   {
     id: 2,
-    img: '/assets/Home/OurNews/news-two.jpg',
+    img: "/assets/Home/OurNews/news-two.jpg",
     title: "I'm SamiraHadid.",
-    secondTitle: 'Nice to meet you!',
+    secondTitle: "Nice to meet you!",
     text: "Women's rights lawyer, founder of Girls for Arts International, cook, and proud mother of 2",
   },
   {
     id: 3,
-    img: '/assets/Home/OurNews/news-three.jpg',
+    img: "/assets/Home/OurNews/news-three.jpg",
     title: "I'm SamiraHadid.",
-    secondTitle: 'Nice to meet you!',
+    secondTitle: "Nice to meet you!",
     text: "Women's rights lawyer, founder of Girls for Arts International, cook, and proud mother of 2",
   },
   {
     id: 4,
-    img: '/assets/Home/OurNews/news-one.jpg',
+    img: "/assets/Home/OurNews/news-one.jpg",
     title: "I'm SamiraHadid.",
-    secondTitle: 'Nice to meet you!',
+    secondTitle: "Nice to meet you!",
     text: "Women's rights lawyer, founder of Girls for Arts International, cook, and proud mother of 2",
   },
   {
     id: 5,
-    img: '/assets/Home/OurNews/news-two.jpg',
+    img: "/assets/Home/OurNews/news-two.jpg",
     title: "I'm SamiraHadid.",
-    secondTitle: 'Nice to meet you!',
+    secondTitle: "Nice to meet you!",
     text: "Women's rights lawyer, founder of Girls for Arts International, cook, and proud mother of 2",
   },
   {
     id: 6,
-    img: '/assets/Home/OurNews/news-three.jpg',
+    img: "/assets/Home/OurNews/news-three.jpg",
     title: "I'm SamiraHadid.",
-    secondTitle: 'Nice to meet you!',
+    secondTitle: "Nice to meet you!",
     text: "Women's rights lawyer, founder of Girls for Arts International, cook, and proud mother of 2",
   },
 ];

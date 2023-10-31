@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const HomeBanner = () => {
   return (
@@ -8,7 +8,7 @@ const HomeBanner = () => {
         <div>
           <h1 className=' text-[2.5rem] font-[700]  '>
             <span
-              style={{ filter: 'url(#goo)' }}
+              style={{ filter: "url(#goo)" }}
               className='inline bg-white box-decoration-clone px-4 py-2 focus:outline-none '
             >
               Agence de

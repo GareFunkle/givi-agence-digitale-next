@@ -1,21 +1,21 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const itemsTrust = [
   {
-    url: '/assets/Logo/LogoClient/LOGO-UNIVERS-TERRASSES-BOIS-GIVI-AGENCE-DIGITALE-COMMUNICATION.png',
+    url: "/assets/Logo/LogoClient/LOGO-UNIVERS-TERRASSES-BOIS-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: '/assets/Logo/LogoClient/LOGO-CITY-WEED-CBD-GIVI-AGENCE-DIGITALE-COMMUNICATION.png',
+    url: "/assets/Logo/LogoClient/LOGO-CITY-WEED-CBD-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: '/assets/Logo/LogoClient/LOGO-EXCELLIUM-NUTRITION-GIVI-AGENCE-DIGITALE-COMMUNICATION.png',
+    url: "/assets/Logo/LogoClient/LOGO-EXCELLIUM-NUTRITION-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: '/assets/Logo/LogoClient/LOGO-IMPACT-CBD-SHOP-GIVI-AGENCE-DIGITALE-COMMUNICATION.png',
+    url: "/assets/Logo/LogoClient/LOGO-IMPACT-CBD-SHOP-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: '/assets/Logo/LogoClient/LOGO-PARERGA-GIVI-AGENCE-DIGITALE-COMMUNICATION.png',
+    url: "/assets/Logo/LogoClient/LOGO-PARERGA-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
 ];
 

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
   faEnvelope,
   faPhone,
-} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
 const ContactSectionIconTrust = () => {
   return (
     <section className='mb-8 flex max-w-full items-center  justify-center '>

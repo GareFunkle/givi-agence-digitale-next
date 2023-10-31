@@ -1,5 +1,5 @@
-import OurNews from '@/views/OurNews';
-import React from 'react';
+import OurNews from "@/views/OurNews";
+import React from "react";
 
 const PageOurNews = () => {
   return <OurNews />;

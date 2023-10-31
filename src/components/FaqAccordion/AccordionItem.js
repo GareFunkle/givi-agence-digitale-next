@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const AccordionItem = ({ items }) => {
   const [active, setActive] = useState(-1);
@@ -18,7 +18,7 @@ const AccordionItem = ({ items }) => {
       {items.map((item, index) => (
         <div
           key={index}
-          className='group relative mb-8 inline-block w-full  overflow-hidden rounded-lg  bg-white p-4  px-12 py-3   text-sm font-medium text-slate-800 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] focus:outline-none focus:ring  sm:p-8 lg:px-6 xl:px-8'
+          className='group relative mb-8 inline-block w-full  overflow-hidden rounded-sm bg-white p-4  px-12 py-3   text-sm font-medium text-slate-800 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] focus:outline-none focus:ring  sm:p-8 lg:px-6 xl:px-8'
         >
           <span className='ease absolute left-0 top-0 h-0 w-0 border-t-2 border-pink transition-all duration-200 group-hover:w-full'></span>
           <span className='ease absolute right-0 top-0 h-0 w-0 border-r-2 border-pink transition-all duration-200 group-hover:h-full'></span>
@@ -31,7 +31,7 @@ const AccordionItem = ({ items }) => {
             <div className='bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg dark:bg-white/5'>
               <svg
                 className={`fill-primary stroke-primary duration-200 ease-in-out ${
-                  active === index ? 'rotate-180' : ''
+                  active === index ? "rotate-180" : ""
                 }`}
                 width='17'
                 height='10'
@@ -55,7 +55,7 @@ const AccordionItem = ({ items }) => {
 
           <div
             className={`pl-[62px] duration-200 ease-in-out ${
-              active === index ? 'block' : 'hidden'
+              active === index ? "block" : "hidden"
             }`}
           >
             <p className='text-body-color dark:text-dark-6 py-3 text-base leading-relaxed'>

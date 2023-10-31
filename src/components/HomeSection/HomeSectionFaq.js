@@ -1,9 +1,9 @@
-import React from 'react';
-import Accordion from '../FaqAccordion/Accordion';
+import React from "react";
+import Accordion from "../FaqAccordion/Accordion";
 
 const HomeSectionFaq = () => {
   return (
-    <section className=' relative z-20 overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]'>
+    <section className=' z-9 relative overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]'>
       <div className='container mx-auto'>
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4'>

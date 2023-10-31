@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 const OurVisionTalkAbout = () => {
   return (
     <section className='flex h-[40vh] max-w-full flex-col items-center justify-center bg-dark-light'>
