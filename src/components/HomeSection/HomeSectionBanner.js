@@ -44,10 +44,10 @@ const HomeBanner = () => {
             </defs>
           </svg>
         </div>
-        <div className='m-w-[100%] mt-[2rem]'>
+        <div className='m-w-full mt-[2rem] flex items-center justify-end pr-8'>
           <Link
             href='/contact'
-            className='w-[100%] rounded-[calc(5rem/6.2)] bg-dark-light px-4 py-2 text-4xl font-bold text-white transition duration-500 ease-out hover:bg-pink'
+            className='rounded-[calc(5rem/6.2)] border-4 border-pink bg-dark-light px-4 py-2 text-4xl font-bold text-white transition duration-500 ease-out hover:border-white hover:bg-dark-light hover:text-pink  '
           >
             Nous contacter
           </Link>

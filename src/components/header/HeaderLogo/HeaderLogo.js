@@ -25,20 +25,16 @@ const HeaderLogo = () => {
   return (
     <Link href='/'>
       <Image
-        width={200}
-        height={150}
-        className={`${
-          changeLogo ? "hidden" : "block"
-        } h-50 mr-3  w-auto  transition-opacity duration-300`}
+        width={500}
+        height={500}
+        className={`${changeLogo ? "hidden  " : "block "} mr-3  w-full  `}
         src='/assets/Logo/logo_big_givi.png'
         alt='logo givi'
       />
       <Image
-        width={200}
-        height={150}
-        className={`${
-          changeLogo ? "opacity block" : "hidden"
-        } h-50 mr-3 w-auto   transition-opacity duration-300`}
+        width={500}
+        height={500}
+        className={`${changeLogo ? "block  " : "hidden "}  mr-3 w-full   `}
         src='/assets/Logo/logo_small_givi.png'
         alt='logo givi small'
       />

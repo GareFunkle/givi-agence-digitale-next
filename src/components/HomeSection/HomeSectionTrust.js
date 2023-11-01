@@ -31,9 +31,9 @@ const HomeTrust = () => {
           {itemsTrust.map((image, index) => (
             <li key={index}>
               <Image
-                className='h-auto w-auto'
-                width={350}
-                height={350}
+                className='w-90'
+                width={400}
+                height={400}
                 src={image.url}
                 alt=''
               />
@@ -44,9 +44,9 @@ const HomeTrust = () => {
           {itemsTrust.map((image, index) => (
             <li key={index}>
               <Image
-                className='h-auto w-auto'
-                width={350}
-                height={350}
+                className=' w-90'
+                width={400}
+                height={400}
                 src={image.url}
                 alt=''
               />
