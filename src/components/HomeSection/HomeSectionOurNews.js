@@ -28,10 +28,12 @@ const itemsNews = [
 const HomeOurNews = () => {
   return (
     <section className='mt-[4rem] flex flex-col items-center justify-center'>
-      <h2 className='text-[5rem] font-bold'>Nos dernières actualités</h2>
-      <div className='mt-[2rem] flex w-[70%] flex-row items-center justify-between '>
+      <h2 className='text-[5rem] font-bold'>
+        Nos dernières <span className='text-pink'>actualités</span>
+      </h2>
+      <div className='mt-[2rem] grid grid-cols-3 gap-x-8 gap-y-4  '>
         {itemsNews.map((item) => (
-          <div key={item.id} className='max-w-[19rem] bg-white '>
+          <div key={item.id} className='max-w-xs   bg-white '>
             <Link href='/nos-actualites'>
               <Image
                 className='h-auto w-full'
