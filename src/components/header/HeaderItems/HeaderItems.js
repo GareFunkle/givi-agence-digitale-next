@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
+import { usePathname } from "next/navigation";
 const HeaderItems = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
   return (
     <>
       <button
@@ -37,104 +38,44 @@ const HeaderItems = () => {
       >
         <ul className='mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-[1.2rem] font-medium dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white  md:p-0'>
           <li>
-            <Link
-              className='relative 
-                        inline-block
-                        transition-all
-                        ease-in-out
-                        before:absolute 
-                        before:-bottom-2
-                        before:left-0
-                        before:h-px
-                        before:w-0
-                        before:rounded-full
-                        before:bg-pink 
-                        before:opacity-0
-                        before:transition-all
-                        before:duration-500
-                        before:content-[""]
-                        hover:transition-all
-                        hover:before:w-full
-                        hover:before:opacity-100'
+            <a
               href='/nos-projets'
+              className={`relative inline-block transition-all ease-in-out before:absolute before:-bottom-2 before:left-0 before:h-px before:w-0 before:rounded-full before:bg-pink before:opacity-0 before:transition-all before:duration-500 before:content-[""] hover:transition-all hover:before:w-full hover:before:opacity-100 ${
+                pathname === "/nos-projets" ? "text-pink" : ""
+              }`}
             >
               Nos projets
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              className='relative 
-                            inline-block
-                            transition-all
-                            ease-in-out
-                            before:absolute 
-                            before:-bottom-2
-                            before:left-0
-                            before:h-px
-                            before:w-0
-                            before:rounded-full
-                            before:bg-pink 
-                            before:opacity-0
-                            before:transition-all
-                            before:duration-500
-                            before:content-[""]
-                            hover:transition-all
-                            hover:before:w-full
-                            hover:before:opacity-100'
+            <a
+              className={`relative inline-block transition-all ease-in-out before:absolute before:-bottom-2 before:left-0 before:h-px before:w-0 before:rounded-full before:bg-pink before:opacity-0 before:transition-all before:duration-500 before:content-[""] hover:transition-all hover:before:w-full hover:before:opacity-100 ${
+                pathname === "/notre-vision" ? " text-pink" : ""
+              }`}
               href='/notre-vision'
             >
               Notre vision
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              className='relative 
-                        inline-block
-                        transition-all
-                        ease-in-out
-                        before:absolute 
-                        before:-bottom-2
-                        before:left-0
-                        before:h-px
-                        before:w-0
-                        before:rounded-full
-                        before:bg-pink 
-                        before:opacity-0
-                        before:transition-all
-                        before:duration-500
-                        before:content-[""]
-                        hover:transition-all
-                        hover:before:w-full
-                        hover:before:opacity-100'
+            <a
+              className={`relative inline-block transition-all ease-in-out before:absolute before:-bottom-2 before:left-0 before:h-px before:w-0 before:rounded-full before:bg-pink before:opacity-0 before:transition-all before:duration-500 before:content-[""] hover:transition-all hover:before:w-full hover:before:opacity-100 ${
+                pathname === "/nos-actualites" ? " text-pink" : ""
+              }`}
               href='/nos-actualites'
             >
               Nos actualités
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              className='relative 
-                        inline-block
-                        transition-all
-                        ease-in-out
-                        before:absolute 
-                        before:-bottom-2
-                        before:left-0
-                        before:h-px
-                        before:w-0
-                        before:rounded-full
-                        before:bg-pink 
-                        before:opacity-0
-                        before:transition-all
-                        before:duration-500
-                        before:content-[""]
-                        hover:transition-all
-                        hover:before:w-full
-                        hover:before:opacity-100'
+            <a
+              className={`relative inline-block transition-all ease-in-out before:absolute before:-bottom-2 before:left-0 before:h-px before:w-0 before:rounded-full before:bg-pink before:opacity-0 before:transition-all before:duration-500 before:content-[""] hover:transition-all hover:before:w-full hover:before:opacity-100 ${
+                pathname === "/contact" ? " text-pink" : ""
+              }`}
               href='/contact'
             >
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

@@ -47,7 +47,7 @@ const HomeBanner = () => {
         <div className='m-w-full mt-[2rem] flex items-start justify-start pr-8'>
           <Link
             href='/contact'
-            className='group  relative overflow-hidden rounded-[calc(5rem/6.2)] border-4 border-pink bg-transparent px-4  py-2 text-4xl font-bold text-white  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
+            className='group  relative overflow-hidden rounded-[calc(5rem/6.2)] border-2 border-pink bg-transparent px-4  py-2 text-4xl font-bold text-white  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
           >
             <span className='absolute inset-0 z-0 -translate-x-full transform bg-pink transition-transform duration-300 group-hover:translate-x-0'></span>
             <span className='z-8 relative'> Nous contacter </span>

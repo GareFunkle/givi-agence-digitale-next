@@ -1,6 +1,6 @@
 "use client";
 import CategoryButton from "@/components/PortofolioSection/ButtonCategoryPortofolio/PortofolioSectionCategoryButton";
-import PortofolioSecionItems from "@/components/PortofolioSection/PortofolioSecionItems";
+import PortofolioSectionItems from "@/components/PortofolioSection/PortofolioSectionItems";
 import PortofolioSectionHeader from "@/components/PortofolioSection/PortofolioSectionHeader";
 import PortofolioSectionProjects from "@/components/PortofolioSection/PortofolioSectionProjects";
 import React, { useState } from "react";
@@ -73,7 +73,7 @@ const Portofolio = () => {
     <div className='relative px-16'>
       <PortofolioSectionHeader />
       <div className='px-12'>
-        <PortofolioSecionItems
+        <PortofolioSectionItems
           category={categories}
           onCategorySelect={setSelectedCategory}
           selectedCategory={selectedCategory}

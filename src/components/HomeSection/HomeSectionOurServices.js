@@ -39,22 +39,29 @@ const HomeOurServices = () => {
   return (
     <section className='my-12 h-auto max-w-[100%]'>
       <div className='flex items-center justify-center'>
-        <h1 className='text-7xl font-bold'>Nos Services</h1>
+        <h1 className='text-7xl font-bold sm:text-5xl md:text-6xl'>
+          Nos Services
+        </h1>
       </div>
-      <div className='grid grid-cols-3 gap-3 p-[4rem]'>
+      <div className='grid grid-cols-1 gap-3 p-4 sm:grid-cols-2 sm:p-8 md:grid-cols-3 md:p-[4rem]'>
         {itemsService.map((item) => (
-          <div key={item.id} className='p-[20px] text-[2rem]'>
+          <div
+            key={item.id}
+            className='p-4 text-xl sm:p-8 sm:text-2xl md:p-[20px] md:text-[2rem]'
+          >
             <div>
               <div className=' mb-4  flex items-center '>
                 <FontAwesomeIcon
                   className=' pr-4 text-[0.5rem] text-pink'
                   icon={faCircle}
                 />
-                <h3 className='text-[1.5rem]  font-bold text-pink'>
+                <h3 className='text-xl font-bold  text-pink sm:text-[1.5rem]'>
                   {item.title}
                 </h3>
               </div>
-              <p className='text-[1.3rem] font-[500]'>{item.text}</p>
+              <p className='text-lg font-[500] sm:text-xl md:text-[1.3rem]'>
+                {item.text}
+              </p>
             </div>
           </div>
         ))}
@@ -62,7 +69,7 @@ const HomeOurServices = () => {
       <div className='flex items-center justify-center'>
         <Link
           href='#'
-          className='rounded-[calc(4rem/4)] bg-dark-light px-4 py-2 text-4xl text-white transition duration-500 hover:bg-pink'
+          className='rounded-[calc(4rem/4)] bg-dark-light px-4 py-2 text-2xl text-white transition duration-500 hover:bg-pink sm:text-3xl md:text-4xl'
         >
           en savoir plus
         </Link>
