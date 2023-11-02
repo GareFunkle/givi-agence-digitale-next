@@ -18,16 +18,15 @@ const HomeOurVision = () => {
               <h4 className='rounded-md bg-white p-2 text-5xl text-black'>
                 Angie
               </h4>
-            </div>
-            <div className='absolute -left-80 -top-24'>
               <Image
-                className='w-[400px]'
-                width={500}
-                height={500}
+                className='absolute top-14 h-auto w-[1000px] '
+                width={1000}
+                height={1000}
                 src='/assets/Home/OurVision/fleche-angie.png'
                 alt=''
               />
             </div>
+
             <Image
               className='relative left-1/2 top-[44%] -translate-x-1/2 -translate-y-1/2 '
               width={350}

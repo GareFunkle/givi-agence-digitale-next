@@ -44,12 +44,13 @@ const HomeBanner = () => {
             </defs>
           </svg>
         </div>
-        <div className='m-w-full mt-[2rem] flex items-center justify-end pr-8'>
+        <div className='m-w-full mt-[2rem] flex items-start justify-start pr-8'>
           <Link
             href='/contact'
-            className='rounded-[calc(5rem/6.2)] border-4 border-pink bg-dark-light px-4 py-2 text-4xl font-bold text-white transition duration-500 ease-out hover:border-white hover:bg-dark-light hover:text-pink  '
+            className='group  relative overflow-hidden rounded-[calc(5rem/6.2)] border-4 border-pink bg-transparent px-4  py-2 text-4xl font-bold text-white  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
           >
-            Nous contacter
+            <span className='absolute inset-0 z-0 -translate-x-full transform bg-pink transition-transform duration-300 group-hover:translate-x-0'></span>
+            <span className='z-8 relative'> Nous contacter </span>
           </Link>
         </div>
       </div>

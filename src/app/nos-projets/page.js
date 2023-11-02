@@ -1,7 +1,8 @@
+import Portofolio from "@/views/portofolio";
 import React from "react";
 
 const PagePortofolio = () => {
-  return <div>PagePortofolio</div>;
+  return <Portofolio />;
 };
 
 export default PagePortofolio;

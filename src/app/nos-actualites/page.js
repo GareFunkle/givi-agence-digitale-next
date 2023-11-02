@@ -1,4 +1,4 @@
-import OurNews from "@/views/OurNews";
+import OurNews from "@/views/ournews";
 import React from "react";
 
 const PageOurNews = () => {

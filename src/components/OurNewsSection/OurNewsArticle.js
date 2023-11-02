@@ -72,7 +72,7 @@ const OurNewsArticle = () => {
                 {item.text}
               </p>
               <Link
-                href='/nos-actualites'
+                href='/nos-actualites/article'
                 className='inline-flex items-center rounded-lg bg-white px-3 py-2 text-center text-sm font-medium text-black'
               >
                 En savoir plus
