@@ -4,7 +4,7 @@ const CategoryButton = ({ name, onSelect, isSelected }) => {
   return (
     <button
       type='button'
-      className={`mr-3 pr-5 text-center text-2xl transition duration-300 ${
+      className={`mr-3 pb-4 pr-5 text-center text-2xl transition duration-300 md:pb-8 ${
         isSelected ? "text-pink" : "hover:text-pink"
       }`}
       onClick={onSelect}

@@ -30,8 +30,8 @@ const itemsStrongPoint = [
 ];
 const HomeStrongPoint = () => {
   return (
-    <section className='flex h-[30vh] items-center justify-between bg-dark-light px-[2rem] py-[2rem] text-white'>
-      <div className='flex max-w-full flex-row items-center'>
+    <section className='flex  items-center justify-between bg-dark-light px-12 py-12 text-white'>
+      <div className='grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2 md:grid-cols-4'>
         {itemsStrongPoint.map((item) => (
           <div
             className='flex w-full items-center justify-center'

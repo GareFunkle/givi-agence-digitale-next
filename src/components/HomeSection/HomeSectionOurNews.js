@@ -31,7 +31,7 @@ const HomeOurNews = () => {
       <h2 className='text-[5rem] font-bold'>
         Nos dernières <span className='text-pink'>actualités</span>
       </h2>
-      <div className='mt-[2rem] grid grid-cols-3 gap-x-8 gap-y-4  '>
+      <div className='mt-[2rem] grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 md:grid-cols-3  '>
         {itemsNews.map((item) => (
           <div key={item.id} className='max-w-xs   bg-white '>
             <Link href='/nos-actualites'>
@@ -52,13 +52,15 @@ const HomeOurNews = () => {
               <p className='mb-3 text-[0.7rem] font-normal text-white'>
                 {item.text}
               </p>
+
               <Link
                 href='/nos-actualites'
-                className='inline-flex items-center rounded-lg bg-white px-3 py-2 text-center text-sm font-medium text-black'
+                className='group relative inline-flex items-center overflow-hidden rounded-[calc(5rem/6.2)] border-2 border-pink bg-transparent px-4  py-2 text-base font-bold text-white  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300'
               >
-                En savoir plus
+                <span className='absolute inset-0 z-0 -translate-x-full transform bg-pink transition-transform duration-300 group-hover:translate-x-0'></span>
+                <span className='z-8 relative'>En savoir plus</span>
                 <svg
-                  className='ml-2 h-3.5 w-3.5'
+                  className='z-8 relative ml-2 h-3.5 w-3.5'
                   aria-hidden='true'
                   xmlns='http://www.w3.org/2000/svg'
                   fill='none'

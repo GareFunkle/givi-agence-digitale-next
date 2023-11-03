@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        calc: "calc(2rem + 1vw)",
+        two: "2rem",
+      },
       colors: {
         pink: "#ff00a8",
         "dark-light": "#1c1c1f",

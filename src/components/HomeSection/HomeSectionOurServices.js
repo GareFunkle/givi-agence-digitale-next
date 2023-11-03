@@ -68,10 +68,11 @@ const HomeOurServices = () => {
       </div>
       <div className='flex items-center justify-center'>
         <Link
-          href='#'
-          className='rounded-[calc(4rem/4)] bg-dark-light px-4 py-2 text-2xl text-white transition duration-500 hover:bg-pink sm:text-3xl md:text-4xl'
+          href='/contact'
+          className='group  relative overflow-hidden rounded-[calc(5rem/6.2)] border-2 border-pink bg-dark-light   px-4 py-2 text-4xl font-bold text-white  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
         >
-          en savoir plus
+          <span className='absolute inset-0 z-0 -translate-x-full transform bg-pink transition-transform duration-300 group-hover:translate-x-0'></span>
+          <span className='z-8 relative'> En savoir plus </span>
         </Link>
       </div>
     </section>

@@ -4,9 +4,9 @@ import Link from "next/link";
 const HomeBanner = () => {
   return (
     <section className='m-w-[100%] h-[70vh] bg-hero-background bg-cover bg-top bg-no-repeat'>
-      <div className='relative left-[10%] top-[35%] w-[77%]'>
+      <div className='relative left-[5%] top-[5%] w-[77%] sm:left-[8%] sm:top-[7%] md:left-[10%] md:top-[35%]'>
         <div>
-          <h1 className=' text-[2.5rem] font-[700]  '>
+          <h1 className=' text-calc font-[700]  '>
             <span
               style={{ filter: "url(#goo)" }}
               className='inline bg-white box-decoration-clone px-4 py-2 focus:outline-none '

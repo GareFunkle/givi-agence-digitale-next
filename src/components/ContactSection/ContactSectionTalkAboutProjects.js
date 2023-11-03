@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactSectionTalkAboutProjects = () => {
   return (
-    <section className='mb-8 max-w-full p-12'>
-      <div className='flex items-center justify-start'>
-        <h1 className='mb-4 rounded-[calc(5rem/2.8)] bg-dark-light p-4 text-5xl font-bold text-white'>
+    <section className='mb-8 max-w-full p-12 '>
+      <div className='flex items-center justify-start '>
+        <h1 className='mb-4 rounded-[calc(5rem/2.8)] bg-dark-light p-4 text-calc font-bold text-white'>
           Discutons de votre projet !
         </h1>
       </div>

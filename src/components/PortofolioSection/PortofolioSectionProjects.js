@@ -7,7 +7,7 @@ const PortofolioSectionProjects = (props) => {
       ? props.images
       : props.images.filter((img) => img.category === props.selectedCategory);
   return (
-    <div className='grid grid-cols-2  gap-10 transition duration-500 md:grid-cols-3'>
+    <div className='grid grid-cols-1 gap-x-8 gap-y-8  transition duration-500 sm:grid-cols-1 md:grid-cols-3'>
       {filteredImages.map((img) => (
         <div key={img.src}>
           <Image

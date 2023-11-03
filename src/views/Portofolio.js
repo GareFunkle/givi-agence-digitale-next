@@ -70,9 +70,9 @@ const Portofolio = () => {
   ];
 
   return (
-    <div className='relative px-16'>
+    <div className='relative px-4 sm:px-8 md:px-16'>
       <PortofolioSectionHeader />
-      <div className='px-12'>
+      <div className='flex flex-col items-center px-0 sm:px-6 md:px-12'>
         <PortofolioSectionItems
           category={categories}
           onCategorySelect={setSelectedCategory}
