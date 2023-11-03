@@ -19,7 +19,7 @@ const Home = () => {
       <WhiteSpace />
       <HomeSectionPortofolio />
       <HomeSectionTrust />
-      {/* <HomeSectionOurVision /> */}
+      <HomeSectionOurVision />
       <HomeSectionOurNews />
       <HomeSectionFaq />
       <HomeSectionYourIdeas />

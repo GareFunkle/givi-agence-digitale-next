@@ -23,7 +23,7 @@ const Article = (props) => {
 
   return (
     <div className='h-auto max-w-full'>
-      <div className='bg-hero-news  h-96 max-w-full bg-cover bg-center bg-no-repeat px-0 '></div>
+      <div className='h-96  max-w-full bg-hero-news bg-cover bg-center bg-no-repeat px-0 '></div>
       <div className='flex flex-col items-start justify-start px-52'>
         <h1 className='bg-pink p-2 text-two font-bold text-white '>
           {article.h1Title}
