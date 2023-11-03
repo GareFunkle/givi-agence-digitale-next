@@ -16,12 +16,10 @@ module.exports = {
         pink: "#ff00a8",
         "dark-light": "#1c1c1f",
       },
-      backgroundColor: {
-        test: "url(#goo)", // exemple d'utilisation d'un filtre SVG nommé "blur"
-      },
       backgroundImage: {
         "hero-background":
           "url('/assets/Home/Banner/banniere-page-accueil.jpg')",
+        "hero-news": "url('/assets/news/image-news.jpg')",
       },
       animation: {
         "infinite-scroll": "infinite-scroll 20s linear infinite",

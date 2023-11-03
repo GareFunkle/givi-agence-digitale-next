@@ -1,7 +1,8 @@
+import Article from "@/components/OurNewsSection/Article/Article";
 import React from "react";
 
-const News = () => {
-  return <div>News</div>;
+const News = (props) => {
+  return <Article params={props.params} />;
 };
 
 export default News;
