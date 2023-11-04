@@ -10,11 +10,13 @@ const OurVisionQuote = () => {
         <span className='flex justify-start text-[3rem]'>
           <FontAwesomeIcon className='text-pink' icon={faQuoteLeft} />
         </span>
-        <p className='flex justify-center text-[1.8rem]'>
-          Chez GIVI notre vision est claire : vous guider et vous accompagner
-          dans cet univers. Ensemble, explorons les opportunités du monde 2.0 et
-          construisons votre succès.
-        </p>
+        <div className='pl-14 pr-12'>
+          <p className='flex justify-center text-3xl'>
+            Chez GIVI notre vision est claire : vous guider et vous accompagner
+            dans cet univers. Ensemble, explorons les opportunités du monde 2.0
+            et construisons votre succès.
+          </p>
+        </div>
         <span className='flex justify-end text-[3rem]'>
           <FontAwesomeIcon className='text-pink' icon={faQuoteRight} />
         </span>
