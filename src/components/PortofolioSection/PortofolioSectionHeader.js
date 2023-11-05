@@ -3,7 +3,7 @@ import React from "react";
 const PortofolioSectionHeader = () => {
   return (
     <div className='my-16 '>
-      <h1 className='mb-12 text-8xl font-bold'>
+      <h1 className='text-title-big mb-12 font-bold'>
         Les projets de <span className='text-pink'>l’agence</span>
       </h1>
       <p className='text-2xl font-medium'>

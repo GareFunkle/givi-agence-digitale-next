@@ -6,7 +6,7 @@ const HomeBanner = () => {
     <section className='m-w-full h-[70vh] bg-hero-background bg-cover bg-top bg-no-repeat'>
       <div className='relative left-[5%] top-[5%] w-[77%] sm:left-[8%] sm:top-[7%] md:left-[10%] md:top-[35%]'>
         <div>
-          <h1 className=' text-calc font-[700]  '>
+          <h1 className=' text-title-medium font-[700]  '>
             <span
               style={{ filter: "url(#goo)" }}
               className='inline bg-white box-decoration-clone px-4 py-2 focus:outline-none '

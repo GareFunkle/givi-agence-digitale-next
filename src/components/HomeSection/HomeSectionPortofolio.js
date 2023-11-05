@@ -6,33 +6,33 @@ import HomeSectionPortofolioProjects from "./SectionPortofolio/HomeSectionPortof
 const images = [
   {
     category: "Site web",
-    src: "/assets/portofolio/1.jpg",
+    src: "/assets/portofolio/agence-communication-conception-site-web-shooting-photo-nice-cannes-city-weed-cbd.jpg",
   },
   {
     category: "Site web",
-    src: "/assets/portofolio/2.jpg",
+    src: "/assets/portofolio/agence-communication-conception-site-internet-Biot-Cannes-Nice-excellium nutrition.jpg",
   },
   {
     category: "Site web",
-    src: "/assets/portofolio/3.jpg",
+    src: "/assets/portofolio/agence-digitale-community-management-cannes-Legends-transformation.jpg",
   },
 
   {
     category: "Réseaux sociaux",
-    src: "/assets/portofolio/4.jpg",
+    src: "/assets/portofolio/agence-digitale-community-management-Nice-antibes-cannes-univers-terrasses-bois.jpg",
   },
   {
     category: "Réseaux sociaux",
-    src: "/assets/portofolio/5.jpg",
+    src: "/assets/portofolio/agence-digitale-community-management-relation-pressse-cannes-monaco-paris-parerga.jpg",
   },
   {
     category: "Réseaux sociaux",
-    src: "/assets/portofolio/6.jpg",
+    src: "/assets/portofolio/agence-digitale-conception-site-e-commerce--mougin-impact-cbd-shop.jpg",
   },
 
   {
     category: "Identité visuelle",
-    src: "/assets/portofolio/7.jpg",
+    src: "/assets/Home/Gallery/agence-digitale-nice-conception-site-web-e-commerce.jpg",
   },
   {
     category: "Identité visuelle",
@@ -40,7 +40,7 @@ const images = [
   },
   {
     category: "Identité visuelle",
-    src: "/assets/portofolio/9.jpg",
+    src: "/assets/Home/Gallery/agence-digital-cannes-conception-site-internet.jpg",
   },
 ];
 

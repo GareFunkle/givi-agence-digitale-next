@@ -23,7 +23,7 @@ const HomeTrust = () => {
   return (
     <section className='h-auto max-w-full '>
       <div className='flex items-center justify-center'>
-        <h1 className='pt-12 text-6xl font-bold'>Références</h1>
+        <h1 className='text-title-big pt-12 font-bold'>Références</h1>
       </div>
 
       <div className='inline-flex w-full flex-nowrap overflow-hidden'>

@@ -7,7 +7,7 @@ const HomeOurVision = () => {
   return (
     <section className='  max-w-full  bg-dark-light text-white'>
       <div className='flex items-center justify-center pt-12'>
-        <h1 className='rounded-2xl bg-pink p-4 text-5xl font-bold text-white'>
+        <h1 className='text-title-medium rounded-2xl bg-pink p-4 font-bold text-white'>
           GIVI, c'est nous!
         </h1>
       </div>

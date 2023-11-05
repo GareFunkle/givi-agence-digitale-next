@@ -4,6 +4,7 @@ import PortofolioSectionItems from "@/components/PortofolioSection/PortofolioSec
 import PortofolioSectionHeader from "@/components/PortofolioSection/PortofolioSectionHeader";
 import PortofolioSectionProjects from "@/components/PortofolioSection/PortofolioSectionProjects";
 import React, { useState } from "react";
+import ImageWithShadow from "@/components/PortofolioSection/test";
 
 const Portofolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("Tous les projets");
@@ -17,72 +18,46 @@ const Portofolio = () => {
 
   const images = [
     {
-      category: "Site web",
-      src: "/assets/portofolio/1.jpg",
+      categories: ["Site web", "Shooting photo"],
+      src: "/assets/portofolio/agence-communication-conception-site-web-shooting-photo-nice-cannes-city-weed-cbd.jpg",
     },
     {
-      category: "Site web",
-      src: "/assets/portofolio/2.jpg",
+      categories: ["Site web", "Shooting photo"],
+      src: "/assets/portofolio/agence-communication-conception-site-internet-Biot-Cannes-Nice-excellium nutrition.jpg",
     },
     {
-      category: "Site web",
-      src: "/assets/portofolio/3.jpg",
-    },
-
-    {
-      category: "Réseaux sociaux",
-      src: "/assets/portofolio/4.jpg",
-    },
-    {
-      category: "Réseaux sociaux",
-      src: "/assets/portofolio/5.jpg",
-    },
-    {
-      category: "Réseaux sociaux",
-      src: "/assets/portofolio/6.jpg",
+      categories: ["Site web", "Identité visuelle"],
+      src: "/assets/portofolio/agence-digitale-conception-site-e-commerce--mougin-impact-cbd-shop.jpg",
     },
 
     {
-      category: "Identité visuelle",
-      src: "/assets/portofolio/7.jpg",
+      categories: ["Réseaux sociaux"],
+      src: "/assets/portofolio/agence-digitale-community-management-cannes-Legends-transformation.jpg",
     },
     {
-      category: "Identité visuelle",
-      src: "/assets/portofolio/8.jpg",
+      categories: ["Réseaux sociaux"],
+      src: "/assets/portofolio/agence-digitale-community-management-Nice-antibes-cannes-univers-terrasses-bois.jpg",
     },
     {
-      category: "Identité visuelle",
-      src: "/assets/portofolio/9.jpg",
-    },
-
-    {
-      category: "Shooting photo",
-      src: "/assets/portofolio/10.jpg",
-    },
-    {
-      category: "Shooting photo",
-      src: "/assets/portofolio/11.jpg",
-    },
-    {
-      category: "Shooting photo",
-      src: "/assets/portofolio/12.jpg",
+      categories: ["Réseaux sociaux", "Identité visuelle"],
+      src: "/assets/portofolio/agence-digitale-community-management-relation-pressse-cannes-monaco-paris-parerga.jpg",
     },
   ];
 
   return (
-    <div className='relative px-4 sm:px-8 md:px-16'>
+    <div className='relative px-4 sm:px-8 md:px-16 lg:px-24'>
       <PortofolioSectionHeader />
-      <div className='flex flex-col items-center px-0 sm:px-6 md:px-12'>
-        <PortofolioSectionItems
-          category={categories}
-          onCategorySelect={setSelectedCategory}
-          selectedCategory={selectedCategory}
-        />
-        <PortofolioSectionProjects
-          images={images}
-          selectedCategory={selectedCategory}
-        />
-      </div>
+
+      <PortofolioSectionItems
+        category={categories}
+        onCategorySelect={setSelectedCategory}
+        selectedCategory={selectedCategory}
+      />
+      <PortofolioSectionProjects
+        images={images}
+        selectedCategory={selectedCategory}
+      />
+      <ImageWithShadow />
     </div>
   );
 };

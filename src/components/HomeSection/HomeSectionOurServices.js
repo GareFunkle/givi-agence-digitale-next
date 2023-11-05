@@ -39,7 +39,7 @@ const HomeOurServices = () => {
   return (
     <section className='my-12 h-auto max-w-[100%]'>
       <div className='flex items-center justify-center'>
-        <h1 className='text-7xl font-bold sm:text-5xl md:text-6xl'>
+        <h1 className='text-title-big font-bold sm:text-5xl md:text-6xl'>
           Nos Services
         </h1>
       </div>

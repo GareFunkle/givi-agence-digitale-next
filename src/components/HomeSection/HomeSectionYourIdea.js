@@ -34,10 +34,11 @@ const HomeYourIdeas = () => {
             placeholder='Détaillez-nous votre projet..'
           />
           <button
-            className='my-8 rounded-[calc(5rem/8)] bg-dark-light px-2.5 py-1 text-2xl font-bold text-white transition duration-500 hover:bg-pink '
+            className='group  relative overflow-hidden rounded-[calc(5rem/6.2)] border-2 border-pink bg-transparent px-4  py-2 text-2xl font-bold text-black  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
             type='submit'
           >
-            Envoyer
+            <span className='absolute inset-0 z-0 -translate-x-full transform bg-pink transition-transform duration-300 group-hover:translate-x-0'></span>
+            <span className='z-8 relative'> Envoyer </span>
           </button>
         </form>
       </div>

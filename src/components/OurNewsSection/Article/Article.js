@@ -25,7 +25,7 @@ const Article = (props) => {
     <div className='h-auto max-w-full'>
       <div className='h-96 max-w-full  bg-hero-news bg-cover bg-center bg-no-repeat p-0 px-0 '></div>
       <div className='flex flex-col items-start justify-start px-8 sm:px-12 md:px-12 lg:px-24 xl:px-96'>
-        <h1 className=' mb-12 mt-24 text-calc font-[700] text-white  '>
+        <h1 className=' text-title-medium mb-12 mt-24 font-[700] text-white  '>
           <span
             style={{ filter: "url(#goo)" }}
             className='inline bg-pink  box-decoration-clone px-4 py-2 focus:outline-none '
@@ -59,7 +59,9 @@ const Article = (props) => {
         </svg>
 
         <p className='text-2xl font-medium'>{article.pOne}</p>
-        <h2 className='py-4 text-5xl font-bold text-pink'>{article.h2Title}</h2>
+        <h2 className='text-title-small py-4 font-bold text-pink sm:text-3xl md:text-4xl lg:text-5xl'>
+          {article.h2Title}
+        </h2>
         <p className=' text-2xl font-medium'>{article.pTwo}</p>
         <p className='  text-2xl font-medium'>{article.pThree}</p>
 
@@ -67,12 +69,12 @@ const Article = (props) => {
 
         <p className='text-2xl font-medium'>{article.pFive}</p>
 
-        <h2 className='py-4 text-5xl font-bold text-pink'>
+        <h2 className='text-title-small py-4 font-bold text-pink sm:text-3xl md:text-4xl lg:text-5xl'>
           {article.h2TitleTwo}
         </h2>
         <p className='text-2xl font-medium'>{article.pSix}</p>
 
-        <h2 className='py-4 text-5xl font-bold text-pink'>
+        <h2 className='text-title-small py-4 font-bold text-pink sm:text-3xl md:text-4xl lg:text-5xl'>
           {article.h2TitleThree}
         </h2>
 
@@ -84,13 +86,13 @@ const Article = (props) => {
 
         <p className='text-2xl font-medium'>{article.pTen}</p>
 
-        <h2 className='py-4 text-5xl font-bold text-pink'>
+        <h2 className='text-title-small py-4 font-bold text-pink sm:text-3xl md:text-4xl lg:text-5xl'>
           {article.h2TitleFour}
         </h2>
 
         <p className='text-2xl font-medium'>{article.pEleven}</p>
 
-        <h2 className='py-4 text-5xl font-bold text-pink'>
+        <h2 className='text-title-small py-4 font-bold text-pink sm:text-3xl md:text-4xl lg:text-5xl'>
           {article.h2TitleFive}
         </h2>
 

@@ -9,7 +9,9 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        calc: "calc(2rem + 1vw)",
+        "title-big": "calc(3rem + 1vw)",
+        "title-medium": "calc(2rem + 1vw)",
+        "title-small": "calc(2rem + 1vw / 100)",
         two: "2rem",
       },
       colors: {
