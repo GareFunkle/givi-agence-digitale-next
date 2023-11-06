@@ -29,8 +29,8 @@ const HeaderLogo = () => {
         height={150}
         className={`${
           changeLogo ? "logo-transition hidden  " : "logo-transition block"
-        }   max-w-1/2  `}
-        src='/assets/Logo/logo_big_givi.png'
+        }   h-auto w-auto  `}
+        src='/logo/logo_big_givi.png'
         alt='logo givi'
       />
       <Image
@@ -38,8 +38,8 @@ const HeaderLogo = () => {
         height={150}
         className={`${
           changeLogo ? "logo-transition block " : "logo-transition hidden"
-        }   max-w-1/2   `}
-        src='/assets/Logo/logo_small_givi.png'
+        }   h-auto w-auto   `}
+        src='/logo/logo_small_givi.png'
         alt='logo givi small'
       />
     </Link>

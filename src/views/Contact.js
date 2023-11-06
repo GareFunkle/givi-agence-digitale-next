@@ -1,6 +1,6 @@
-import ContactSectionForm from "@/components/ContactSection/ContactSectionForm";
 import ContactSectionIconTrust from "@/components/ContactSection/ContactSectionIconTrust";
 import ContactSectionTalkAboutProjects from "@/components/ContactSection/ContactSectionTalkAboutProjects";
+import FormComponent from "@/components/ui/form/form";
 import React from "react";
 
 const Contact = () => {
@@ -8,7 +8,9 @@ const Contact = () => {
     <div>
       <ContactSectionTalkAboutProjects />
       <ContactSectionIconTrust />
-      <ContactSectionForm />
+      <div className='flex flex-col items-center justify-center'>
+        <FormComponent />
+      </div>
     </div>
   );
 };

@@ -3,19 +3,19 @@ import Image from "next/image";
 
 const itemsTrust = [
   {
-    url: "/assets/Logo/LogoClient/LOGO-UNIVERS-TERRASSES-BOIS-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
+    url: "/logo/logoclient/LOGO-UNIVERS-TERRASSES-BOIS-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: "/assets/Logo/LogoClient/LOGO-CITY-WEED-CBD-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
+    url: "/logo/logoclient/LOGO-CITY-WEED-CBD-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: "/assets/Logo/LogoClient/LOGO-EXCELLIUM-NUTRITION-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
+    url: "/logo/logoclient/LOGO-EXCELLIUM-NUTRITION-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: "/assets/Logo/LogoClient/LOGO-IMPACT-CBD-SHOP-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
+    url: "/logo/logoclient/LOGO-IMPACT-CBD-SHOP-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
   {
-    url: "/assets/Logo/LogoClient/LOGO-PARERGA-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
+    url: "/logo/logoclient/LOGO-PARERGA-GIVI-AGENCE-DIGITALE-COMMUNICATION.png",
   },
 ];
 
@@ -23,7 +23,7 @@ const HomeTrust = () => {
   return (
     <section className='h-auto max-w-full '>
       <div className='flex items-center justify-center'>
-        <h1 className='text-title-big pt-12 font-bold'>Références</h1>
+        <h1 className='pt-12 text-title-big font-bold'>Références</h1>
       </div>
 
       <div className='inline-flex w-full flex-nowrap overflow-hidden'>

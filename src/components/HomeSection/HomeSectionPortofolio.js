@@ -6,41 +6,41 @@ import HomeSectionPortofolioProjects from "./SectionPortofolio/HomeSectionPortof
 const images = [
   {
     category: "Site web",
-    src: "/assets/portofolio/agence-communication-conception-site-web-shooting-photo-nice-cannes-city-weed-cbd.jpg",
+    src: "/portofolio/agence-communication-conception-site-web-shooting-photo-nice-cannes-city-weed-cbd.jpg",
   },
   {
     category: "Site web",
-    src: "/assets/portofolio/agence-communication-conception-site-internet-Biot-Cannes-Nice-excellium nutrition.jpg",
+    src: "/portofolio/agence-communication-conception-site-internet-Biot-Cannes-Nice-excellium nutrition.jpg",
   },
   {
     category: "Site web",
-    src: "/assets/portofolio/agence-digitale-community-management-cannes-Legends-transformation.jpg",
+    src: "/portofolio/agence-digitale-community-management-cannes-Legends-transformation.jpg",
   },
 
   {
     category: "Réseaux sociaux",
-    src: "/assets/portofolio/agence-digitale-community-management-Nice-antibes-cannes-univers-terrasses-bois.jpg",
+    src: "/portofolio/agence-digitale-community-management-Nice-antibes-cannes-univers-terrasses-bois.jpg",
   },
   {
     category: "Réseaux sociaux",
-    src: "/assets/portofolio/agence-digitale-community-management-relation-pressse-cannes-monaco-paris-parerga.jpg",
+    src: "/portofolio/agence-digitale-community-management-relation-pressse-cannes-monaco-paris-parerga.jpg",
   },
   {
     category: "Réseaux sociaux",
-    src: "/assets/portofolio/agence-digitale-conception-site-e-commerce--mougin-impact-cbd-shop.jpg",
+    src: "/portofolio/agence-digitale-conception-site-e-commerce--mougin-impact-cbd-shop.jpg",
   },
 
   {
     category: "Identité visuelle",
-    src: "/assets/Home/Gallery/agence-digitale-nice-conception-site-web-e-commerce.jpg",
+    src: "/home/gallery/agence-digitale-nice-conception-site-web-e-commerce.jpg",
   },
   {
     category: "Identité visuelle",
-    src: "/assets/portofolio/8.jpg",
+    src: "/portofolio/8.jpg",
   },
   {
     category: "Identité visuelle",
-    src: "/assets/Home/Gallery/agence-digital-cannes-conception-site-internet.jpg",
+    src: "/home/gallery/agence-digital-cannes-conception-site-internet.jpg",
   },
 ];
 

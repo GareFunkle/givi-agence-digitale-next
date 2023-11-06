@@ -9,7 +9,7 @@ import {
 const ContactSectionIconTrust = () => {
   return (
     <section className='mb-8 flex max-w-full items-center  justify-center '>
-      <div className='flex w-1/2 flex-row  justify-around'>
+      <div className='flex w-1/3 flex-row  justify-around'>
         <div className='flex flex-col items-center  '>
           <div className='mb-9 rounded-full bg-dark-light p-3'>
             <FontAwesomeIcon className='text-5xl text-white' icon={faClock} />

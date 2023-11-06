@@ -8,7 +8,7 @@ const OurVisionUs = () => {
         width={800}
         height={500}
         className='h-auto w-auto'
-        src='/assets/Vision/Us/4.png'
+        src='/vision/Us/4.png'
         alt='nous couple best'
       />
       <div className='flex flex-row items-center justify-evenly '>

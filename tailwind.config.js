@@ -19,9 +19,8 @@ module.exports = {
         "dark-light": "#1c1c1f",
       },
       backgroundImage: {
-        "hero-background":
-          "url('/assets/Home/Banner/banniere-page-accueil.jpg')",
-        "hero-news": "url('/assets/news/image-news.jpg')",
+        "hero-background": "url('/home/banner/banniere-page-accueil.jpg')",
+        "hero-news": "url('/news/image-news.jpg')",
       },
       animation: {
         "infinite-scroll": "infinite-scroll 20s linear infinite",

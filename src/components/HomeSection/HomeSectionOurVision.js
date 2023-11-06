@@ -7,7 +7,7 @@ const HomeOurVision = () => {
   return (
     <section className='  max-w-full  bg-dark-light text-white'>
       <div className='flex items-center justify-center pt-12'>
-        <h1 className='text-title-medium rounded-2xl bg-pink p-4 font-bold text-white'>
+        <h1 className='rounded-2xl bg-pink p-4 text-title-medium font-bold text-white'>
           GIVI, c'est nous!
         </h1>
       </div>
@@ -22,7 +22,7 @@ const HomeOurVision = () => {
                 className='absolute top-12 h-auto w-full '
                 width={1000}
                 height={1000}
-                src='/assets/Home/OurVision/fleche-angie.png'
+                src='/home/ourvision/fleche-angie.png'
                 alt=''
               />
             </div>
@@ -31,7 +31,7 @@ const HomeOurVision = () => {
               className='relative left-1/2 top-[44%] -translate-x-1/2 -translate-y-1/2 '
               width={350}
               height={350}
-              src='/assets/Home/OurVision/angie-mrhb.png'
+              src='/home/ourvision/angie-mrhb.png'
               alt='angie couple femme'
             />
           </div>
@@ -41,7 +41,7 @@ const HomeOurVision = () => {
                 className='absolute -top-32 right-20 h-auto w-full '
                 width={1000}
                 height={1000}
-                src='/assets/Home/OurVision/fleche-vincent.png'
+                src='/home/ourvision/fleche-vincent.png'
                 alt=''
               />
               <h4 className='rounded-md bg-white p-2 text-5xl text-black'>
@@ -53,7 +53,7 @@ const HomeOurVision = () => {
               className='relative left-1/2 top-[45%] -translate-x-1/2 -translate-y-1/2 '
               width={500}
               height={500}
-              src='/assets/Home/OurVision/vincent-drt.png'
+              src='/home/ourvision/vincent-drt.png'
               alt='vincent couple homme'
             />
           </div>

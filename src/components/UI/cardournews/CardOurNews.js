@@ -6,7 +6,7 @@ import React from "react";
 
 const CardOurNews = (props) => {
   return (
-    <div className='max-w-xs   bg-white '>
+    <div className='h-auto max-w-xs  bg-white '>
       <Image
         className='h-auto w-full'
         width={300}
@@ -15,7 +15,7 @@ const CardOurNews = (props) => {
         alt=''
       />
       <div className='rounded-b-[1rem] bg-dark-light p-5'>
-        <h5 className='mb-2 text-2xl font-bold tracking-tight text-white'>
+        <h5 className='mb-2 text-xl font-bold tracking-tight text-white'>
           {props.itemsNews.title} <br /> {props.itemsNews.secondTitle}
         </h5>
         <p className='mb-3 text-[0.7rem] font-normal text-white'>

@@ -3,16 +3,16 @@ import React from "react";
 const ContactSectionTalkAboutProjects = () => {
   return (
     <section className='mb-8 max-w-full p-12 '>
-      <div className='flex items-center justify-start '>
-        <h1 className='text-title-big mb-4 rounded-[calc(5rem/2.8)] bg-dark-light p-2 font-bold text-white'>
-          Discutons de votre projet !
+      <div className='flex flex-col items-start justify-start px-24 '>
+        <h1 className='mb-4   text-title-big font-bold text-dark-light'>
+          Discutons de votre <span className='text-pink'>projet </span> !
         </h1>
+        <p className='text-2xl font-[500]'>
+          Dans un monde en constante évolution, le digital est devenu bien plus
+          qu'un simple outil : il est le terrain sur lequel les rêves prennent
+          forme et les idées s'épanouissent.
+        </p>
       </div>
-      <p className='text-2xl font-[500]'>
-        Dans un monde en constante évolution, le digital est devenu bien plus
-        qu'un simple outil : il est le terrain sur lequel les rêves prennent
-        forme et les idées s'épanouissent.
-      </p>
     </section>
   );
 };

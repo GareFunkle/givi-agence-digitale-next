@@ -9,13 +9,13 @@ const OurVisionStory = () => {
           width={800}
           height={500}
           className='w-full'
-          src='/assets/Logo/logo_big_givi.png'
+          src='/logo/logo_big_givi.png'
           alt='logo givi agence digitale'
         />
       </div>
 
       <div className='flex w-[70%] flex-col items-start justify-start'>
-        <h1 className='text-title-big mb-6 font-bold'>Notre histoire</h1>
+        <h1 className='mb-6 text-title-big font-bold'>Notre histoire</h1>
         <p className='text-6 mb-4'>
           Dans un monde en constante évolution, le digital est devenu bien plus
           qu&#39;un simple outil : il est le terrain sur lequel les rêves
