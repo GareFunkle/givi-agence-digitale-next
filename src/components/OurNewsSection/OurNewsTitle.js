@@ -2,7 +2,7 @@ import React from "react";
 
 const OurNewsTitle = () => {
   return (
-    <section className='flex max-w-full flex-col items-center justify-center'>
+    <section className='flex max-w-full flex-col items-center justify-center pt-4'>
       <h1 className='text-title-big font-bold text-black'>Nos actualités</h1>
       <div className='flex w-1/2 items-start justify-start p-10'>
         <p className='text-xl font-[500] text-black'>
