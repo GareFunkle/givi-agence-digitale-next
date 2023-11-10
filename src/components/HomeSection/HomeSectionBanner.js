@@ -1,22 +1,41 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 const HomeBanner = () => {
+  const [text, setText] = useState("");
+  const [textIndex, setTextIndex] = useState(0);
+  const texts = [
+    " gestion des réseaux sociaux",
+    " conception de site internet",
+    " SEO",
+  ];
+
+  useEffect(() => {
+    let i = 0;
+    const timer = setInterval(() => {
+      if (i < texts[textIndex].length) {
+        setText((prevText) => prevText + texts[textIndex].charAt(i));
+        i++;
+      } else {
+        setText("");
+        setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+        i = 0;
+      }
+    }, 150);
+    return () => clearInterval(timer);
+  }, [textIndex]);
   return (
-    <section className='m-w-full h-[70vh] bg-hero-background bg-cover bg-top bg-no-repeat'>
+    <section className='m-w-full h-[70vh]  bg-hero-background bg-cover bg-top bg-no-repeat'>
       <div className='relative left-[5%] top-[5%] w-[77%] sm:left-[8%] sm:top-[7%] md:left-[10%] md:top-[35%]'>
         <div>
-          <h1 className=' text-title-medium font-[700]  '>
+          <h1 className=' text-title-medium font-[700] transition duration-300  '>
             <span
               style={{ filter: "url(#goo)" }}
               className='inline bg-white box-decoration-clone px-4 py-2 focus:outline-none '
             >
-              Agence de
-              <span className='text-pink'> communication digitale</span>,
-              spécialisée dans la
-              <span className='text-pink'> gestion des réseaux sociaux</span> et
-              la création de
-              <span className='text-pink'> site internet</span>.
+              Agence de communication digitale, <br /> spécialisée dans la
+              <span className='text-pink transition duration-300'> {text}</span>
             </span>
           </h1>
           <svg
