@@ -2,6 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
+import LinkButton from "../ui/button/LinkButton";
 
 const HomeOurVision = () => {
   return (
@@ -60,13 +61,7 @@ const HomeOurVision = () => {
         </div>
       </div>
       <div className='flex items-center justify-center pb-20 pt-28'>
-        <Link
-          href='#'
-          className='group  relative overflow-hidden  rounded-[calc(5rem/6.2)] border-2 border-pink  bg-transparent  p-2 px-4 py-2 text-4xl  font-bold text-white    shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
-        >
-          <span className='absolute inset-0 z-0 -translate-x-full transform bg-pink transition-transform duration-300 group-hover:translate-x-0'></span>
-          <span className='z-8 relative'> Mieux nous connaitre </span>
-        </Link>
+        <LinkButton href='/notre-vision'>Mieux nous connaitre</LinkButton>
       </div>
     </section>
   );

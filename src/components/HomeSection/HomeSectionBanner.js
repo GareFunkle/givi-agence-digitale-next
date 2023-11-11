@@ -22,23 +22,24 @@ const HomeBanner = () => {
         setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
         i = 0;
       }
-    }, 150);
+    }, 100);
     return () => clearInterval(timer);
   }, [textIndex]);
   return (
     <section className='m-w-full h-[70vh]  bg-hero-background bg-cover bg-top bg-no-repeat'>
+      <div className='absolute left-0 top-0 h-[70vh] w-full bg-[#f1f1f13a]'></div>
       <div className='relative left-[5%] top-[5%] w-[77%] sm:left-[8%] sm:top-[7%] md:left-[10%] md:top-[35%]'>
         <div>
           <h1 className=' text-title-medium font-[700] transition duration-300  '>
             <span
               style={{ filter: "url(#goo)" }}
-              className='inline bg-white box-decoration-clone px-4 py-2 focus:outline-none '
+              className='inline px-4 py-2 focus:outline-none  '
             >
               Agence de communication digitale, <br /> spécialisée dans la
               <span className='text-pink transition duration-300'> {text}</span>
             </span>
           </h1>
-          <svg
+          {/* <svg
             className='absolute hidden'
             width='0'
             height='0'
@@ -61,7 +62,7 @@ const HomeBanner = () => {
                 <feComposite in='SourceGraphic' in2='goo' operator='atop' />
               </filter>
             </defs>
-          </svg>
+          </svg> */}
         </div>
         <div className='m-w-full mt-[2rem] flex items-start justify-end pr-8'>
           <Link
