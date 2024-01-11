@@ -4,7 +4,7 @@ const PortofolioSectionHeader = () => {
   return (
     <div className='my-16 '>
       <h1 className='mb-12 text-title-big font-bold'>
-        Les projets de <span className='text-pink'>l’agence</span>
+        Les projets de <span className='text-beige'>l’agence</span>
       </h1>
       <p className='text-2xl font-medium'>
         Chaque projet est un nouveau défi à relever avec des promesses de

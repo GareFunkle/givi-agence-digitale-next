@@ -5,7 +5,7 @@ const CategoryButton = ({ name, onSelect, isSelected }) => {
     <button
       type='button'
       className={`mr-3 pb-4 pr-5 text-center text-2xl transition duration-300 md:pb-8 ${
-        isSelected ? "text-pink" : "hover:text-pink"
+        isSelected ? "text-beige" : "hover:text-beige"
       }`}
       onClick={onSelect}
     >

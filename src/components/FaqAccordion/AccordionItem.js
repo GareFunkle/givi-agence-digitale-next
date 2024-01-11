@@ -20,10 +20,10 @@ const AccordionItem = ({ items }) => {
           key={index}
           className='group relative mb-8 inline-block w-full  overflow-hidden rounded-sm bg-white p-4  px-12 py-3   text-sm font-medium text-slate-800 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] focus:outline-none focus:ring  sm:p-8 lg:px-6 xl:px-8'
         >
-          <span className='ease absolute left-0 top-0 h-0 w-0 border-t-2 border-pink transition-all duration-200 group-hover:w-full'></span>
-          <span className='ease absolute right-0 top-0 h-0 w-0 border-r-2 border-pink transition-all duration-200 group-hover:h-full'></span>
-          <span className='ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-pink transition-all duration-200 group-hover:w-full'></span>
-          <span className='ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-pink transition-all duration-200 group-hover:h-full'></span>
+          <span className='ease border-beige absolute left-0 top-0 h-0 w-0 border-t-2 transition-all duration-200 group-hover:w-full'></span>
+          <span className='ease border-beige absolute right-0 top-0 h-0 w-0 border-r-2 transition-all duration-200 group-hover:h-full'></span>
+          <span className='ease border-beige absolute bottom-0 right-0 h-0 w-0 border-b-2 transition-all duration-200 group-hover:w-full'></span>
+          <span className='ease border-beige absolute bottom-0 left-0 h-0 w-0 border-l-2 transition-all duration-200 group-hover:h-full'></span>
           <button
             className={`faq-btn flex w-full text-left`}
             onClick={() => handleToggle(index)}

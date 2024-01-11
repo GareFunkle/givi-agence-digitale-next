@@ -53,10 +53,10 @@ const HomeOurServices = () => {
             <div>
               <div className=' mb-4  flex items-center '>
                 <FontAwesomeIcon
-                  className=' pr-4 text-[0.5rem] text-pink'
+                  className=' text-beige pr-4 text-[0.5rem]'
                   icon={faCircle}
                 />
-                <h3 className='text-xl font-bold  text-pink sm:text-[1.5rem]'>
+                <h3 className='text-beige text-xl  font-bold sm:text-[1.5rem]'>
                   {item.title}
                 </h3>
               </div>

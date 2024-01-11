@@ -46,7 +46,7 @@ const images = [
 
 const HomeSectionPortofolio = () => {
   return (
-    <div className='flex max-w-full flex-col items-center justify-center bg-dark-light py-12'>
+    <div className='bg-dark flex max-w-full flex-col items-center justify-center py-12'>
       <HomeSectionPortofolioProjects images={images} />
       <div className='flex items-center justify-center pt-20'>
         <LinkButton href='/nos-projets'>Découvrir nos projets</LinkButton>

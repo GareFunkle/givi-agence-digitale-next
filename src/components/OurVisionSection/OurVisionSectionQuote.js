@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const OurVisionQuote = () => {
   return (
     <section className='flex h-[50vh] max-w-full items-center justify-center p-8'>
-      <div className='rounded-[4rem] bg-dark-light px-12 py-8 text-white'>
+      <div className='bg-dark rounded-[4rem] px-12 py-8 text-white'>
         <span className='flex justify-start text-[3rem]'>
-          <FontAwesomeIcon className='text-pink' icon={faQuoteLeft} />
+          <FontAwesomeIcon className='text-beige' icon={faQuoteLeft} />
         </span>
         <div className='pl-14 pr-12'>
           <p className='flex justify-center text-3xl'>
@@ -18,7 +18,7 @@ const OurVisionQuote = () => {
           </p>
         </div>
         <span className='flex justify-end text-[3rem]'>
-          <FontAwesomeIcon className='text-pink' icon={faQuoteRight} />
+          <FontAwesomeIcon className='text-beige' icon={faQuoteRight} />
         </span>
       </div>
     </section>

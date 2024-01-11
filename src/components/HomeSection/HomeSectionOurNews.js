@@ -33,7 +33,7 @@ const HomeOurNews = () => {
   return (
     <section className='mt-[4rem] flex flex-col items-center justify-center'>
       <h2 className='text-[5rem] font-bold'>
-        Nos dernières <span className='text-pink'>actualités</span>
+        Nos dernières <span className='text-beige'>actualités</span>
       </h2>
       <div className='mt-[2rem] grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 md:grid-cols-3  '>
         {itemsNews.map((item) => (

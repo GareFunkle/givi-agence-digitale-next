@@ -26,7 +26,7 @@ const Footer = () => {
           type='mail'
           placeholder='email*'
         />
-        <button className='rounded-[0.2rem] border-none bg-dark-light py-[0.1rem] pl-[1rem] pr-[2rem] text-[1.3rem] text-white transition duration-500 hover:bg-pink'>
+        <button className='bg-dark rounded-[0.2rem] border-none py-[0.1rem] pl-[1rem] pr-[2rem] text-[1.3rem] text-white transition duration-500 hover:bg-beige'>
           s&#39;inscrire
         </button>
       </div>
@@ -34,19 +34,19 @@ const Footer = () => {
       <div className='mb-[5rem] flex justify-center'>
         <Link href='#'>
           <FontAwesomeIcon
-            className='p-1 text-[2.5rem] transition duration-300 hover:text-pink'
+            className='p-1 text-[2.5rem] transition duration-300 hover:text-beige'
             icon={faLinkedin}
           />
         </Link>
         <Link href='#'>
           <FontAwesomeIcon
-            className='p-1 text-[2.5rem] transition duration-300 hover:text-pink'
+            className='p-1 text-[2.5rem] transition duration-300 hover:text-beige'
             icon={faSquareInstagram}
           />
         </Link>
         <Link href='#'>
           <FontAwesomeIcon
-            className='p-1 text-[2.5rem]  transition duration-300 hover:text-pink'
+            className='p-1 text-[2.5rem]  transition duration-300 hover:text-beige'
             icon={faSquareFacebook}
           />
         </Link>

@@ -46,10 +46,10 @@ const FormComponent = () => {
           placeholder='Détaillez-nous votre projet..'
         />
         <button
-          className='group  relative overflow-hidden rounded-[calc(5rem/6.2)] border-2 border-pink bg-transparent px-4  py-2 text-2xl font-bold text-black  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
+          className='border-beige  group relative overflow-hidden rounded-[calc(5rem/6.2)] border-2 bg-transparent px-4  py-2 text-2xl font-bold text-black  shadow-[5px_5px_0px_0px_#ff00aa18]  transition-all duration-300 '
           type='submit'
         >
-          <span className='absolute inset-0 z-0 -translate-x-full transform bg-pink transition-transform duration-300 group-hover:translate-x-0'></span>
+          <span className='bg-beige absolute inset-0 z-0 -translate-x-full transform transition-transform duration-300 group-hover:translate-x-0'></span>
           <span className='z-8 relative'> Envoyer </span>
         </button>
       </form>

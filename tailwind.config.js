@@ -15,8 +15,11 @@ module.exports = {
         two: "2rem",
       },
       colors: {
-        pink: "#ff00a8",
-        "dark-light": "#1c1c1f",
+        beige: "#c9af9b",
+        "beige-light": "#efe7dc",
+        brown: "#6d513f",
+        "brown-light": "#c47e62",
+        dark: "#1a1915",
       },
       backgroundImage: {
         "hero-background": "url('/home/banner/banniere-page-accueil.jpg')",
